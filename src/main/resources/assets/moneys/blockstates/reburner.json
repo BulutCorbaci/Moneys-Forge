@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "moneys:block/reburner"
+    },
+    "facing=east": {
+      "model": "moneys:block/reburner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "moneys:block/reburner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "moneys:block/reburner",
+      "y": 270
     }
   }
 }

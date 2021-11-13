@@ -1,0 +1,16 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moneys:minecoin_10"
+    },
+    {
+      "item": "moneys:minecoin_10"
+    }
+  ],
+  "result": {
+    "item": "moneys:minecoin_20",
+    "count": 1
+  }
+}

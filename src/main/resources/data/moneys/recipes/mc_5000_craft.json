@@ -1,0 +1,19 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moneys:minecoin_2000"
+    },
+    {
+      "item": "moneys:minecoin_1000"
+    },
+    {
+      "item": "moneys:minecoin_2000"
+    }
+  ],
+  "result": {
+    "item": "moneys:minecoin_5000",
+    "count": 1
+  }
+}

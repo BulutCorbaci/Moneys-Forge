@@ -58,7 +58,7 @@ public class ReburnerUpdateTickProcedure {
 				}
 				return _retval.get();
 			}
-		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 6) < 64 && ((new Object() {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 6) < 64 && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -80,7 +80,7 @@ public class ReburnerUpdateTickProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 3)).getItem() == MoneysModItems.MINECOIN_RIP || (new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 3)).getItem() == MoneysModItems.MINECOIN_RIP && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -102,7 +102,7 @@ public class ReburnerUpdateTickProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 5)).getItem() == MoneysModItems.MINECOIN_RIP) && (new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 5)).getItem() == MoneysModItems.MINECOIN_RIP && (new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);

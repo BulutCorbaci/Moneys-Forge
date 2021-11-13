@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[37,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="moneys"
-version="1.0.0"
+version="2.0"
 displayName="Moneys!"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Nah Fam This Is On Dev."
 displayURL="https://mcreator.net"
-authors="brcbu, MCreator"
+authors="BulutCorbaci"
+description='''
+A Mod That Adds Money to The Game!
+'''
 
 [[dependencies.moneys]]
     modId="minecraft"

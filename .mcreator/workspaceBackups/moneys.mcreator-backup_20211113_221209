@@ -1,0 +1,172 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Reburner",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reburner"
+    },
+    {
+      "name": "Minecoin1",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_1"
+    },
+    {
+      "name": "Minecoin5",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_5"
+    },
+    {
+      "name": "Minecoin10",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_10"
+    },
+    {
+      "name": "Minecoin20",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_20"
+    },
+    {
+      "name": "Minecoin50",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_50"
+    },
+    {
+      "name": "Minecoin100",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_100"
+    },
+    {
+      "name": "Minecoin200",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_200"
+    },
+    {
+      "name": "Minecoin500",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_500"
+    },
+    {
+      "name": "Minecoin1000",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_1000"
+    },
+    {
+      "name": "Minecoin2000",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_2000"
+    },
+    {
+      "name": "Minecoin5000",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_5000"
+    },
+    {
+      "name": "MinecoinRip",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_rip"
+    },
+    {
+      "name": "ReburnerBetaGUI",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reburner_beta_gui"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.moneys.minecoin_20": "Minecoin 20",
+      "item.moneys.minecoin_500": "Minecoin 500",
+      "item.moneys.minecoin_rip": "Ripped Minecoin",
+      "item.moneys.minecoin_10": "Minecoin 10",
+      "block.moneys.reburner": "Reburner",
+      "item.moneys.minecoin_5000": "Minecoin 5000",
+      "item.moneys.minecoin_5": "Minecoin 5",
+      "item.moneys.minecoin_1": "Minecoin 1",
+      "item.moneys.minecoin_200": "Minecoin 200",
+      "item.moneys.minecoin_100": "Minecoin 100",
+      "item.moneys.minecoin_50": "Minecoin 50",
+      "item.moneys.minecoin_1000": "Minecoin 1000",
+      "item.moneys.minecoin_2000": "Minecoin 2000"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "moneys",
+    "modName": "Moneys!",
+    "version": "1.0.0",
+    "author": "brcbu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "blt.moneys.beta",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100345419
+}

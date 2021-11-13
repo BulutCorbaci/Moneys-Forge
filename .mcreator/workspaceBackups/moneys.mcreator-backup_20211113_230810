@@ -108,6 +108,115 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "minecoin_5000"
+    },
+    {
+      "name": "MinecoinRip",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecoin_rip"
+    },
+    {
+      "name": "ReburnerBetaGUI",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reburner_beta_gui"
+    },
+    {
+      "name": "ReburnerUpdateTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reburner_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExpSound",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "exp_sound",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReburnerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reburner_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -116,9 +225,10 @@
     "en_us": {
       "item.moneys.minecoin_20": "Minecoin 20",
       "item.moneys.minecoin_500": "Minecoin 500",
+      "item.moneys.minecoin_rip": "Ripped Minecoin",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
-      "item.moneys.minecoin_5000": "Minecoin 5 0 0 0",
+      "item.moneys.minecoin_5000": "Minecoin 5000",
       "item.moneys.minecoin_5": "Minecoin 5",
       "item.moneys.minecoin_1": "Minecoin 1",
       "item.moneys.minecoin_200": "Minecoin 200",

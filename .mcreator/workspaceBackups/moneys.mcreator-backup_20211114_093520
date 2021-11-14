@@ -217,6 +217,105 @@
           }
         ]
       }
+    },
+    {
+      "name": "MC1Craft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_1_craft"
+    },
+    {
+      "name": "MC5Craft",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_5_craft"
+    },
+    {
+      "name": "MC10Craft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_10_craft"
+    },
+    {
+      "name": "MC20Craft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_20_craft"
+    },
+    {
+      "name": "MC50Craft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_50_craft"
+    },
+    {
+      "name": "MC100Craft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_100_craft"
+    },
+    {
+      "name": "MC200Craft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_200_craft"
+    },
+    {
+      "name": "MC500Craft",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_500_craft"
+    },
+    {
+      "name": "MC1000Craft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_1000_craft"
+    },
+    {
+      "name": "MC2000Craft",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_2000_craft"
+    },
+    {
+      "name": "MC5000Craft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mc_5000_craft"
     }
   ],
   "variable_elements": [],
@@ -245,10 +344,10 @@
   "workspaceSettings": {
     "modid": "moneys",
     "modName": "Moneys!",
-    "version": "1.0.0",
-    "author": "brcbu, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "2.0",
+    "description": "A Mod That Adds Money to The Game!",
+    "author": "BulutCorbaci",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -256,6 +355,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Nah Fam This Is On Dev.",
     "modElementsPackage": "blt.moneys.beta",
     "lockBaseModFiles": false
   },

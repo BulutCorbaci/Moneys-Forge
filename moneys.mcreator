@@ -316,6 +316,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mc_5000_craft"
+    },
+    {
+      "name": "ReburnerCraft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reburner_craft"
     }
   ],
   "variable_elements": [],

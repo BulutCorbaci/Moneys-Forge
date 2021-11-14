@@ -269,7 +269,7 @@ public class ReburnerUpdateTickProcedure {
 							}
 							return _retval.get();
 						}
-					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 2) + 1));
+					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), 6) + 1));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);

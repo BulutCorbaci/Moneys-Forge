@@ -30,6 +30,7 @@ import blt.moneys.beta.item.Minecoin1Item;
 import blt.moneys.beta.item.Minecoin10Item;
 import blt.moneys.beta.item.Minecoin100Item;
 import blt.moneys.beta.item.Minecoin1000Item;
+import blt.moneys.beta.item.HardenedOilArmorItem;
 import blt.moneys.beta.item.BlackOilItem;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -62,6 +63,10 @@ public class MoneysModItems {
 	public static final Item MONEY_FENCE_GATE = register(MoneysModBlocks.MONEY_FENCE_GATE, MoneysModTabs.TAB_MONEYS_TAB);
 	public static final Item MONEY_PRESSURE_PLATE = register(MoneysModBlocks.MONEY_PRESSURE_PLATE, MoneysModTabs.TAB_MONEYS_TAB);
 	public static final Item MONEY_BUTTON = register(MoneysModBlocks.MONEY_BUTTON, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item HARDENED_OIL_ARMOR_HELMET = register(new HardenedOilArmorItem.Helmet());
+	public static final Item HARDENED_OIL_ARMOR_CHESTPLATE = register(new HardenedOilArmorItem.Chestplate());
+	public static final Item HARDENED_OIL_ARMOR_LEGGINGS = register(new HardenedOilArmorItem.Leggings());
+	public static final Item HARDENED_OIL_ARMOR_BOOTS = register(new HardenedOilArmorItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

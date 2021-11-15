@@ -653,6 +653,12 @@
     },
     "done": true
   },
+  "moneys:obtain_1_minecoin": {
+    "criteria": {
+      "obtain_1_minecoin": "2021-11-15 21:14:35 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_yellow_dye": "2021-11-13 22:54:51 +0300"

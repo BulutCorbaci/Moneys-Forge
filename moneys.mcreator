@@ -604,6 +604,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "moneys_tab"
+    },
+    {
+      "name": "HardenedOilArmor",
+      "type": "armor",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_oil_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HardenedOilArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_oil_armor_helmet_recipe"
+    },
+    {
+      "name": "HardenedOilArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_oil_armor_body_recipe"
+    },
+    {
+      "name": "HardenedOilArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_oil_armor_leggings_recipe"
+    },
+    {
+      "name": "HardenedOilArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_oil_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -626,7 +677,10 @@
       "block.moneys.money_slab": "Money Slab",
       "itemGroup.tabmoneys_tab": "Moneys! Items",
       "item.moneys.minecoin_50": "Minecoin 50",
+      "item.moneys.hardened_oil_armor_boots": "HardenedOil Boots",
       "item.moneys.minecoin_1000": "Minecoin 1000",
+      "item.moneys.hardened_oil_armor_helmet": "HardenedOil Helmet",
+      "item.moneys.hardened_oil_armor_chestplate": "HardenedOil Chestplate",
       "item.moneys.minecoin_20": "Minecoin 20",
       "item.moneys.minecoin_rip": "Ripped Minecoin",
       "block.moneys.money_wood": "Money Wood",
@@ -636,6 +690,7 @@
       "block.moneys.money_pressure_plate": "Money Pressure Plate",
       "biome.moneys.money_biome": "Money Biome",
       "item.moneys.black_oil": "Blackened Oil",
+      "item.moneys.hardened_oil_armor_leggings": "HardenedOil Leggings",
       "advancements.obtain_1_minecoin.descr": "Craft/Find your First Minecoin",
       "item.moneys.minecoin_2000": "Minecoin 2000",
       "block.moneys.oil_ore": "Oil Ore",

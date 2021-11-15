@@ -325,6 +325,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "reburner_craft"
+    },
+    {
+      "name": "RaidedBuilding",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raided_building"
+    },
+    {
+      "name": "RaidedBuildingLootTable",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raided_building_loot_table"
+    },
+    {
+      "name": "OilOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_ore"
+    },
+    {
+      "name": "Oil",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil"
+    },
+    {
+      "name": "OilHard",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_hard"
     }
   ],
   "variable_elements": [],
@@ -338,12 +383,15 @@
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",
       "item.moneys.minecoin_5": "Minecoin 5",
+      "item.moneys.oil_hard": "Hardened Oil",
+      "item.moneys.oil": "Oil",
       "item.moneys.minecoin_1": "Minecoin 1",
       "item.moneys.minecoin_200": "Minecoin 200",
       "item.moneys.minecoin_100": "Minecoin 100",
       "item.moneys.minecoin_50": "Minecoin 50",
       "item.moneys.minecoin_1000": "Minecoin 1000",
-      "item.moneys.minecoin_2000": "Minecoin 2000"
+      "item.moneys.minecoin_2000": "Minecoin 2000",
+      "block.moneys.oil_ore": "Oil Ore"
     }
   },
   "foldersRoot": {

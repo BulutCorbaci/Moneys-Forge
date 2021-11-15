@@ -16,6 +16,8 @@ import net.minecraft.world.item.BlockItem;
 import java.util.List;
 import java.util.ArrayList;
 
+import blt.moneys.beta.item.OilItem;
+import blt.moneys.beta.item.OilHardItem;
 import blt.moneys.beta.item.MinecoinRipItem;
 import blt.moneys.beta.item.Minecoin5Item;
 import blt.moneys.beta.item.Minecoin50Item;
@@ -28,6 +30,7 @@ import blt.moneys.beta.item.Minecoin1Item;
 import blt.moneys.beta.item.Minecoin10Item;
 import blt.moneys.beta.item.Minecoin100Item;
 import blt.moneys.beta.item.Minecoin1000Item;
+import blt.moneys.beta.item.BlackOilItem;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneysModItems {
@@ -45,6 +48,10 @@ public class MoneysModItems {
 	public static final Item MINECOIN_2000 = register(new Minecoin2000Item());
 	public static final Item MINECOIN_5000 = register(new Minecoin5000Item());
 	public static final Item MINECOIN_RIP = register(new MinecoinRipItem());
+	public static final Item OIL_ORE = register(MoneysModBlocks.OIL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item OIL = register(new OilItem());
+	public static final Item OIL_HARD = register(new OilHardItem());
+	public static final Item BLACK_OIL = register(new BlackOilItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

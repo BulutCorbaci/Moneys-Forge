@@ -14,11 +14,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 import blt.moneys.beta.block.ReburnerBlock;
+import blt.moneys.beta.block.OilOreBlock;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneysModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block REBURNER = register(new ReburnerBlock());
+	public static final Block OIL_ORE = register(new OilOreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

@@ -20,6 +20,7 @@ import java.util.Set;
 import java.util.Map;
 import java.util.HashMap;
 
+import blt.moneys.beta.world.features.ores.OilOreFeature;
 import blt.moneys.beta.world.features.RaidedBuildingFeature;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -28,6 +29,8 @@ public class MoneysModFeatures {
 	static {
 		REGISTRY.put(RaidedBuildingFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES,
 				RaidedBuildingFeature.GENERATE_BIOMES, RaidedBuildingFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(OilOreFeature.FEATURE,
+				new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, OilOreFeature.GENERATE_BIOMES, OilOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

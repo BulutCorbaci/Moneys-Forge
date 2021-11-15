@@ -325,6 +325,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "reburner_craft"
+    },
+    {
+      "name": "RaidedBuilding",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raided_building"
+    },
+    {
+      "name": "RaidedBuildingLootTable",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raided_building_loot_table"
+    },
+    {
+      "name": "OilOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_ore"
     }
   ],
   "variable_elements": [],
@@ -343,7 +370,8 @@
       "item.moneys.minecoin_100": "Minecoin 100",
       "item.moneys.minecoin_50": "Minecoin 50",
       "item.moneys.minecoin_1000": "Minecoin 1000",
-      "item.moneys.minecoin_2000": "Minecoin 2000"
+      "item.moneys.minecoin_2000": "Minecoin 2000",
+      "block.moneys.oil_ore": "Oil Ore"
     }
   },
   "foldersRoot": {

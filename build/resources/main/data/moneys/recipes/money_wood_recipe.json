@@ -1,0 +1,26 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "moneys:money_log"
+    },
+    "1": {
+      "item": "moneys:money_log"
+    },
+    "2": {
+      "item": "moneys:money_log"
+    },
+    "3": {
+      "item": "moneys:money_log"
+    }
+  },
+  "result": {
+    "item": "moneys:money_wood",
+    "count": 3
+  }
+}

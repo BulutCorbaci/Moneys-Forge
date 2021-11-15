@@ -1,0 +1,13 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moneys:money_planks"
+    }
+  ],
+  "result": {
+    "item": "moneys:money_button",
+    "count": 1
+  }
+}

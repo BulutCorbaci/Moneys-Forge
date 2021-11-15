@@ -1,18 +1,13 @@
 package blt.moneys.beta.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.CapabilityItemHandler;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.Minecraft;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -124,7 +119,7 @@ public class ReburnerUpdateTickProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == Items.BLACK_DYE && new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == MoneysModItems.BLACK_OIL && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -157,7 +152,7 @@ public class ReburnerUpdateTickProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == Items.BLACK_DYE && (new Object() {
+		}.getItemStack(world, new BlockPos((int) x, (int) y, (int) z), 1)).getItem() == MoneysModItems.BLACK_OIL && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -277,9 +272,6 @@ public class ReburnerUpdateTickProcedure {
 					});
 				}
 			}
-			if (world instanceof Level _level)
-				_level.playSound(_level.isClientSide() ? Minecraft.getInstance().player : null, x, y, z,
-						ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.experience_orb.pickup")), SoundSource.BLOCKS, 1, 1);
 		}
 	}
 }

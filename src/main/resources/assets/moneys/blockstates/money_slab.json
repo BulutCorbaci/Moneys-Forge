@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "moneys:block/money_slab"
+    },
+    "type=top": {
+      "model": "moneys:block/money_slab_top"
+    },
+    "type=double": {
+      "model": "moneys:block/money_slab_full"
+    }
+  }
+}

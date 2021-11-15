@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "moneys:blocks/money_planks"
+  }
+}

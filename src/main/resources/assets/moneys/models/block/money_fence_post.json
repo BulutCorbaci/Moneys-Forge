@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "moneys:blocks/money_planks",
+    "particle": "moneys:blocks/money_planks"
+  }
+}

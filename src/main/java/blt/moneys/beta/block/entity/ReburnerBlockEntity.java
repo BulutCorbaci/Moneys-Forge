@@ -117,6 +117,8 @@ public class ReburnerBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
+		if (index == 6)
+			return false;
 		return true;
 	}
 

@@ -1,0 +1,13 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:money_log"
+    }
+  ],
+  "result": {
+    "item": "moneys:money_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "moneys:block/money_leaves"
+    }
+  }
+}

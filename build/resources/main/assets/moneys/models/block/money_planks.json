@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "moneys:blocks/money_planks",
+    "particle": "moneys:blocks/money_planks"
+  }
+}

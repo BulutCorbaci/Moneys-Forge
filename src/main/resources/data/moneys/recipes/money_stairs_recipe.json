@@ -1,0 +1,33 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "moneys:money_planks"
+    },
+    "3": {
+      "item": "moneys:money_planks"
+    },
+    "4": {
+      "item": "moneys:money_planks"
+    },
+    "6": {
+      "item": "moneys:money_planks"
+    },
+    "7": {
+      "item": "moneys:money_planks"
+    },
+    "8": {
+      "item": "moneys:money_planks"
+    }
+  },
+  "result": {
+    "item": "moneys:money_stairs",
+    "count": 4
+  }
+}

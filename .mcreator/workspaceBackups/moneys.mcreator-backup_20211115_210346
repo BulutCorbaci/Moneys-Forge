@@ -343,25 +343,284 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "raided_building_loot_table"
+    },
+    {
+      "name": "OilOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_ore"
+    },
+    {
+      "name": "Oil",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil"
+    },
+    {
+      "name": "OilHard",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_hard"
+    },
+    {
+      "name": "BlackOil",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_oil"
+    },
+    {
+      "name": "OilHardRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil_hard_recipe"
+    },
+    {
+      "name": "BlackOilRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_oil_recipe"
+    },
+    {
+      "name": "Obtain1Minecoin",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obtain_1_minecoin"
+    },
+    {
+      "name": "MoneyWood",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_wood"
+    },
+    {
+      "name": "MoneyLog",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_log"
+    },
+    {
+      "name": "MoneyPlanks",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_planks"
+    },
+    {
+      "name": "MoneyLeaves",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_leaves"
+    },
+    {
+      "name": "MoneyStairs",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_stairs"
+    },
+    {
+      "name": "MoneySlab",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_slab"
+    },
+    {
+      "name": "MoneyFence",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_fence"
+    },
+    {
+      "name": "MoneyFenceGate",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_fence_gate"
+    },
+    {
+      "name": "MoneyPressurePlate",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_pressure_plate"
+    },
+    {
+      "name": "MoneyButton",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_button"
+    },
+    {
+      "name": "MoneyItemsTag",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_items_tag"
+    },
+    {
+      "name": "MoneyWoodRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_wood_recipe"
+    },
+    {
+      "name": "MoneyPlanksRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_planks_recipe"
+    },
+    {
+      "name": "MoneyStairsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_stairs_recipe"
+    },
+    {
+      "name": "MoneySlabRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_slab_recipe"
+    },
+    {
+      "name": "MoneyFenceRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_fence_recipe"
+    },
+    {
+      "name": "MoneyFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_fence_gate_recipe"
+    },
+    {
+      "name": "MoneyPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_pressure_plate_recipe"
+    },
+    {
+      "name": "MoneyButtonRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_button_recipe"
+    },
+    {
+      "name": "MoneyStickRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_stick_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.moneys.minecoin_20": "Minecoin 20",
       "item.moneys.minecoin_500": "Minecoin 500",
-      "item.moneys.minecoin_rip": "Ripped Minecoin",
+      "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
+      "block.moneys.money_stairs": "Money Stairs",
+      "block.moneys.money_fence": "Money Fence",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",
+      "block.moneys.money_log": "Money Log",
       "item.moneys.minecoin_5": "Minecoin 5",
+      "item.moneys.oil": "Oil",
       "item.moneys.minecoin_1": "Minecoin 1",
       "item.moneys.minecoin_200": "Minecoin 200",
       "item.moneys.minecoin_100": "Minecoin 100",
+      "block.moneys.money_slab": "Money Slab",
       "item.moneys.minecoin_50": "Minecoin 50",
       "item.moneys.minecoin_1000": "Minecoin 1000",
-      "item.moneys.minecoin_2000": "Minecoin 2000"
+      "item.moneys.minecoin_20": "Minecoin 20",
+      "item.moneys.minecoin_rip": "Ripped Minecoin",
+      "block.moneys.money_wood": "Money Wood",
+      "block.moneys.money_fence_gate": "Money Fence Gate",
+      "item.moneys.oil_hard": "Hardened Oil",
+      "block.moneys.money_leaves": "Money Leaves",
+      "block.moneys.money_pressure_plate": "Money Pressure Plate",
+      "item.moneys.black_oil": "Blackened Oil",
+      "advancements.obtain_1_minecoin.descr": "Craft/Find your First Minecoin",
+      "item.moneys.minecoin_2000": "Minecoin 2000",
+      "block.moneys.oil_ore": "Oil Ore",
+      "block.moneys.money_planks": "Money Planks",
+      "block.moneys.money_button": "Money Button"
     }
   },
   "foldersRoot": {

@@ -51,6 +51,43 @@ public class ReburnerBetaGUIScreen extends AbstractContainerScreen<ReburnerBetaG
 		int k = (this.width - this.imageWidth) / 2;
 		int l = (this.height - this.imageHeight) / 2;
 		this.blit(ms, k, l, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/black_dye_je1_be116.png"));
+		this.blit(ms, 141, 62, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/coal_je4_be316.png"));
+		this.blit(ms, 141, 89, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/minecoin_rip16.png"));
+		this.blit(ms, 168, 62, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/minecoin_rip16.png"));
+		this.blit(ms, 168, 89, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/minecoin_rip16.png"));
+		this.blit(ms, 195, 62, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/minecoin_rip16.png"));
+		this.blit(ms, 195, 89, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow.png"));
+		this.blit(ms, 141, 80, 0, 0, 16, 8, 16, 8);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow.png"));
+		this.blit(ms, 168, 80, 0, 0, 16, 8, 16, 8);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow.png"));
+		this.blit(ms, 195, 80, 0, 0, 16, 8, 16, 8);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
+		this.blit(ms, 159, 89, 0, 0, 8, 16, 8, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
+		this.blit(ms, 186, 89, 0, 0, 8, 16, 8, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrowlong.png"));
+		this.blit(ms, 213, 80, 0, 0, 64, 24, 64, 24);
+
 		RenderSystem.disableBlend();
 	}
 

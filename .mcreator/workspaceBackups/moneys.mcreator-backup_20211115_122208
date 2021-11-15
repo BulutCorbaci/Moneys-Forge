@@ -316,6 +316,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mc_5000_craft"
+    },
+    {
+      "name": "ReburnerCraft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reburner_craft"
+    },
+    {
+      "name": "RaidedBuilding",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raided_building"
+    },
+    {
+      "name": "RaidedBuildingLootTable",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raided_building_loot_table"
     }
   ],
   "variable_elements": [],

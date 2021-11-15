@@ -131,6 +131,126 @@
           "x": 267,
           "y": 62
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "black_dye_je1_be116.png",
+          "use1Xscale": false,
+          "name": "black_dye_je1_be116.png",
+          "x": 141,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coal_je4_be316.png",
+          "use1Xscale": false,
+          "name": "coal_je4_be316.png",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "minecoin_rip16.png",
+          "use1Xscale": false,
+          "name": "minecoin_rip16.png",
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "minecoin_rip16.png",
+          "use1Xscale": false,
+          "name": "minecoin_rip16.png",
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "minecoin_rip16.png",
+          "use1Xscale": false,
+          "name": "minecoin_rip16.png",
+          "x": 195,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "minecoin_rip16.png",
+          "use1Xscale": false,
+          "name": "minecoin_rip16.png",
+          "x": 195,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 141,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 168,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 195,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 159,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 186,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowlong.png",
+          "use1Xscale": false,
+          "name": "arrowlong.png",
+          "x": 213,
+          "y": 80
+        }
       }
     ],
     "gridSettings": {

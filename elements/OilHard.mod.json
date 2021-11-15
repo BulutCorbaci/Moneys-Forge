@@ -8,7 +8,7 @@
     "name": "Hardened Oil",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MoneysTab"
     },
     "stackSize": 64,
     "enchantability": 0,

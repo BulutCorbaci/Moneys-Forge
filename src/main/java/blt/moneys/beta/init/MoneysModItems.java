@@ -35,7 +35,7 @@ import blt.moneys.beta.item.BlackOilItem;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneysModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item REBURNER = register(MoneysModBlocks.REBURNER, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item REBURNER = register(MoneysModBlocks.REBURNER, MoneysModTabs.TAB_MONEYS_TAB);
 	public static final Item MINECOIN_1 = register(new Minecoin1Item());
 	public static final Item MINECOIN_5 = register(new Minecoin5Item());
 	public static final Item MINECOIN_10 = register(new Minecoin10Item());
@@ -48,20 +48,20 @@ public class MoneysModItems {
 	public static final Item MINECOIN_2000 = register(new Minecoin2000Item());
 	public static final Item MINECOIN_5000 = register(new Minecoin5000Item());
 	public static final Item MINECOIN_RIP = register(new MinecoinRipItem());
-	public static final Item OIL_ORE = register(MoneysModBlocks.OIL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item OIL_ORE = register(MoneysModBlocks.OIL_ORE, MoneysModTabs.TAB_MONEYS_TAB);
 	public static final Item OIL = register(new OilItem());
 	public static final Item OIL_HARD = register(new OilHardItem());
 	public static final Item BLACK_OIL = register(new BlackOilItem());
-	public static final Item MONEY_WOOD = register(MoneysModBlocks.MONEY_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item MONEY_LOG = register(MoneysModBlocks.MONEY_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item MONEY_PLANKS = register(MoneysModBlocks.MONEY_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item MONEY_LEAVES = register(MoneysModBlocks.MONEY_LEAVES, CreativeModeTab.TAB_DECORATIONS);
-	public static final Item MONEY_STAIRS = register(MoneysModBlocks.MONEY_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item MONEY_SLAB = register(MoneysModBlocks.MONEY_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item MONEY_FENCE = register(MoneysModBlocks.MONEY_FENCE, CreativeModeTab.TAB_DECORATIONS);
-	public static final Item MONEY_FENCE_GATE = register(MoneysModBlocks.MONEY_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
-	public static final Item MONEY_PRESSURE_PLATE = register(MoneysModBlocks.MONEY_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
-	public static final Item MONEY_BUTTON = register(MoneysModBlocks.MONEY_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item MONEY_WOOD = register(MoneysModBlocks.MONEY_WOOD, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_LOG = register(MoneysModBlocks.MONEY_LOG, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_PLANKS = register(MoneysModBlocks.MONEY_PLANKS, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_LEAVES = register(MoneysModBlocks.MONEY_LEAVES, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_STAIRS = register(MoneysModBlocks.MONEY_STAIRS, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_SLAB = register(MoneysModBlocks.MONEY_SLAB, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_FENCE = register(MoneysModBlocks.MONEY_FENCE, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_FENCE_GATE = register(MoneysModBlocks.MONEY_FENCE_GATE, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_PRESSURE_PLATE = register(MoneysModBlocks.MONEY_PRESSURE_PLATE, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item MONEY_BUTTON = register(MoneysModBlocks.MONEY_BUTTON, MoneysModTabs.TAB_MONEYS_TAB);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

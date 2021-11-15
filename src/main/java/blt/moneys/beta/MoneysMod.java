@@ -28,6 +28,8 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
+import blt.moneys.beta.init.MoneysModTabs;
+
 @Mod("moneys")
 public class MoneysMod {
 	public static final Logger LOGGER = LogManager.getLogger(MoneysMod.class);
@@ -38,7 +40,7 @@ public class MoneysMod {
 	private static int messageID = 0;
 
 	public MoneysMod() {
-
+		MoneysModTabs.load();
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

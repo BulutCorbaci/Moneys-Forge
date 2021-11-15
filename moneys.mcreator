@@ -595,6 +595,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "money_biome"
+    },
+    {
+      "name": "MoneysTab",
+      "type": "tab",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moneys_tab"
     }
   ],
   "variable_elements": [],
@@ -615,6 +624,7 @@
       "item.moneys.minecoin_200": "Minecoin 200",
       "item.moneys.minecoin_100": "Minecoin 100",
       "block.moneys.money_slab": "Money Slab",
+      "itemGroup.tabmoneys_tab": "Moneys! Items",
       "item.moneys.minecoin_50": "Minecoin 50",
       "item.moneys.minecoin_1000": "Minecoin 1000",
       "item.moneys.minecoin_20": "Minecoin 20",

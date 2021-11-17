@@ -655,6 +655,99 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hardened_oil_armor_boots_recipe"
+    },
+    {
+      "name": "WanderingSeller",
+      "type": "livingentity",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wandering_seller"
+    },
+    {
+      "name": "WanderingSellerOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wandering_seller_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WanderingSellerGUI",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wandering_seller_gui"
+    },
+    {
+      "name": "WanderingSellerRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wandering_seller_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RemoveMoneyAndAddItems",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remove_money_and_add_items",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -662,13 +755,13 @@
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "block.moneys.money_fence": "Money Fence",
-      "block.moneys.money_stairs": "Money Stairs",
       "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
+      "block.moneys.money_stairs": "Money Stairs",
+      "block.moneys.money_fence": "Money Fence",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
-      "block.moneys.money_log": "Money Log",
       "item.moneys.minecoin_5000": "Minecoin 5000",
+      "block.moneys.money_log": "Money Log",
       "item.moneys.minecoin_5": "Minecoin 5",
       "item.moneys.oil": "Oil",
       "item.moneys.minecoin_1": "Minecoin 1",
@@ -679,6 +772,8 @@
       "item.moneys.minecoin_50": "Minecoin 50",
       "item.moneys.hardened_oil_armor_boots": "HardenedOil Boots",
       "item.moneys.minecoin_1000": "Minecoin 1000",
+      "item.moneys.wandering_seller_spawn_egg": "Wandering Seller Spawn Egg",
+      "entity.moneys.wandering_seller": "Wandering Seller",
       "item.moneys.hardened_oil_armor_helmet": "HardenedOil Helmet",
       "item.moneys.hardened_oil_armor_chestplate": "HardenedOil Chestplate",
       "item.moneys.minecoin_20": "Minecoin 20",

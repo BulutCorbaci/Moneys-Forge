@@ -142,19 +142,6 @@
           "x": 258,
           "y": 62
         }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "%page%",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "%page%",
-          "x": 204,
-          "y": 89
-        }
       }
     ],
     "gridSettings": {

@@ -748,6 +748,27 @@
           }
         ]
       }
+    },
+    {
+      "name": "ChangePageNumber",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_page_number",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

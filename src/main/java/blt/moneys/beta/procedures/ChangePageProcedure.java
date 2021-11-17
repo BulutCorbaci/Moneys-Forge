@@ -15,9 +15,9 @@ public class ChangePageProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity.getPersistentData().getDouble("playerTradePage") == 1) {
-			entity.getPersistentData().putDouble("playerTradePage", 0);
+			entity.getPersistentData().putDouble("playerTradePage", 2);
 		} else if (entity.getPersistentData().getDouble("playerTradePage") == 2) {
-			entity.getPersistentData().putDouble("playerTradePage", 0);
+			entity.getPersistentData().putDouble("playerTradePage", 3);
 		}
 	}
 }

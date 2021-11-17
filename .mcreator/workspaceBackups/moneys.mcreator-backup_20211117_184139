@@ -762,10 +762,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
           }
         ]
       }
@@ -822,7 +818,20 @@
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "pagenumberminecoin",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "NaN"
+    },
+    {
+      "name": "PageNumberTrade",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {

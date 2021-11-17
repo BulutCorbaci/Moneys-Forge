@@ -836,9 +836,9 @@
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
-      "block.moneys.money_stairs": "Money Stairs",
       "block.moneys.money_fence": "Money Fence",
+      "block.moneys.money_stairs": "Money Stairs",
+      "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",

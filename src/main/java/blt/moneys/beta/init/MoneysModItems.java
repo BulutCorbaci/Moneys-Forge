@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -67,6 +68,9 @@ public class MoneysModItems {
 	public static final Item HARDENED_OIL_ARMOR_CHESTPLATE = register(new HardenedOilArmorItem.Chestplate());
 	public static final Item HARDENED_OIL_ARMOR_LEGGINGS = register(new HardenedOilArmorItem.Leggings());
 	public static final Item HARDENED_OIL_ARMOR_BOOTS = register(new HardenedOilArmorItem.Boots());
+	public static final Item WANDERING_SELLER = register(
+			new SpawnEggItem(MoneysModEntities.WANDERING_SELLER, -65536, -26368, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB))
+					.setRegistryName("wandering_seller_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

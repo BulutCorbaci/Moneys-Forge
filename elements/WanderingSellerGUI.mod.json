@@ -2,20 +2,154 @@
   "_fv": 24,
   "_type": "gui",
   "definition": {
-    "type": 0,
+    "type": 1,
     "width": 176,
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
-    "components": [],
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 240,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "< Back",
+          "width": 56,
+          "height": 20,
+          "name": "< Back",
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next >",
+          "width": 56,
+          "height": 20,
+          "name": "Next >",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 204,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 222,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 195,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 213,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_side.png",
+          "use1Xscale": false,
+          "name": "arrow_side.png",
+          "x": 231,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Input",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Input",
+          "x": 141,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Output",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Output",
+          "x": 258,
+          "y": 62
+        }
+      }
+    ],
     "gridSettings": {
       "sx": 18,
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

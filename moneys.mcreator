@@ -731,6 +731,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "RemoveMoneyAndAddItems",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remove_money_and_add_items",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

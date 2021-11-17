@@ -93,6 +93,7 @@ public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingS
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		drawString(poseStack, this.font, "Input", 141 - this.leftPos, 62 - this.topPos, -12829636);
 		drawString(poseStack, this.font, "Output", 258 - this.leftPos, 62 - this.topPos, -12829636);
+		drawString(poseStack, this.font, "%page%", 204 - this.leftPos, 89 - this.topPos, -12829636);
 	}
 
 	@Override

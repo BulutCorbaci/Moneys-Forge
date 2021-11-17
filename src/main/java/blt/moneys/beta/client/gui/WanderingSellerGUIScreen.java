@@ -17,6 +17,9 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 import blt.moneys.beta.world.inventory.WanderingSellerGUIMenu;
+import blt.moneys.beta.network.WanderingSellerGUIButtonMessage;
+import blt.moneys.beta.network.MoneysModVariables;
+import blt.moneys.beta.MoneysMod;
 
 public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingSellerGUIMenu> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
@@ -91,8 +94,13 @@ public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingS
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Input", 141 - this.leftPos, 62 - this.topPos, -12829636);
-		drawString(poseStack, this.font, "Output", 258 - this.leftPos, 62 - this.topPos, -12829636);
+		drawString(poseStack, this.font, "Input", 141 - this.leftPos, 71 - this.topPos, -12829636);
+		drawString(poseStack, this.font, "Output", 258 - this.leftPos, 71 - this.topPos, -12829636);
+		drawString(poseStack, this.font, "", 132 - this.leftPos, 44 - this.topPos, -12829636);
+		drawString(poseStack, this.font, "" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new MoneysModVariables.PlayerVariables())).PageNumberTrade) + "", 204 - this.leftPos, 89 - this.topPos, -12829636);
+		drawString(poseStack, this.font, "" + ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new MoneysModVariables.PlayerVariables())).pagenumberminecoin) + "", 132 - this.leftPos, 44 - this.topPos, -12829636);
 	}
 
 	@Override
@@ -106,8 +114,16 @@ public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingS
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(150, 98, 56, 20, new TextComponent("< Back"), e -> {
+			if (true) {
+				MoneysMod.PACKET_HANDLER.sendToServer(new WanderingSellerGUIButtonMessage(0, x, y, z));
+				WanderingSellerGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(222, 98, 56, 20, new TextComponent("Next >"), e -> {
+			if (true) {
+				MoneysMod.PACKET_HANDLER.sendToServer(new WanderingSellerGUIButtonMessage(1, x, y, z));
+				WanderingSellerGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}));
 	}
 }

@@ -29,7 +29,13 @@
         "data": {
           "id": 1,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "RemoveMoney"
+          },
+          "onStackTransfer": {
+            "name": "RemoveMoney"
+          },
           "name": "Slot #1",
           "x": 240,
           "y": 62
@@ -39,6 +45,9 @@
         "type": "button",
         "data": {
           "text": "< Back",
+          "onClick": {
+            "name": "ChangePageBack"
+          },
           "width": 56,
           "height": 20,
           "name": "< Back",
@@ -50,6 +59,9 @@
         "type": "button",
         "data": {
           "text": "Next >",
+          "onClick": {
+            "name": "ChangePage"
+          },
           "width": 56,
           "height": 20,
           "name": "Next >",
@@ -127,7 +139,7 @@
           },
           "name": "Input",
           "x": 141,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -140,7 +152,46 @@
           },
           "name": "Output",
           "x": 258,
-          "y": 62
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:PageNumberTrade>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:PageNumberTrade>",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:pagenumberminecoin>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:pagenumberminecoin>",
+          "x": 132,
+          "y": 44
         }
       }
     ],

@@ -22,7 +22,9 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+import blt.moneys.beta.network.WanderingSellerGUISlotMessage;
 import blt.moneys.beta.init.MoneysModMenus;
+import blt.moneys.beta.MoneysMod;
 
 public class WanderingSellerGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final Level world;
@@ -77,6 +79,18 @@ public class WanderingSellerGUIMenu extends AbstractContainerMenu implements Sup
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 26) {
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 115, 26) {
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(1, 1, 0);
+			}
+
+			@Override
+			public void onQuickCraft(ItemStack a, ItemStack b) {
+				super.onQuickCraft(a, b);
+				slotChanged(1, 2, b.getCount() - a.getCount());
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -213,13 +227,24 @@ public class WanderingSellerGUIMenu extends AbstractContainerMenu implements Sup
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
+					if (j == 1)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
+					if (i == 1)
+						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			MoneysMod.PACKET_HANDLER.sendToServer(new WanderingSellerGUISlotMessage(slotid, x, y, z, ctype, meta));
+			WanderingSellerGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

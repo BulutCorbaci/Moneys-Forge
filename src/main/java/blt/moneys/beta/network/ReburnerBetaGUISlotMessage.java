@@ -14,8 +14,6 @@ import net.minecraft.core.BlockPos;
 import java.util.function.Supplier;
 import java.util.HashMap;
 
-import com.google.common.collect.ImmutableMap;
-
 import blt.moneys.beta.procedures.ExpSoundProcedure;
 import blt.moneys.beta.client.gui.ReburnerBetaGUIScreen;
 import blt.moneys.beta.MoneysMod;
@@ -74,7 +72,7 @@ public class ReburnerBetaGUISlotMessage {
 			return;
 		if (slotID == 6 && changeType == 1) {
 
-			ExpSoundProcedure.execute(ImmutableMap.<String, Object>builder().put("x", x).put("y", y).put("z", z).put("world", world).build());
+			ExpSoundProcedure.execute(world, x, y, z);
 		}
 	}
 

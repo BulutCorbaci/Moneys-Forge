@@ -14,8 +14,6 @@ import net.minecraft.core.BlockPos;
 import java.util.function.Supplier;
 import java.util.HashMap;
 
-import com.google.common.collect.ImmutableMap;
-
 import blt.moneys.beta.procedures.RemoveMoneyProcedure;
 import blt.moneys.beta.client.gui.WanderingSellerGUIScreen;
 import blt.moneys.beta.MoneysMod;
@@ -74,12 +72,12 @@ public class WanderingSellerGUISlotMessage {
 			return;
 		if (slotID == 1 && changeType == 1) {
 
-			RemoveMoneyProcedure.execute(ImmutableMap.<String, Object>builder().put("entity", entity).build());
+			RemoveMoneyProcedure.execute(entity);
 		}
 		if (slotID == 1 && changeType == 2) {
 			int amount = meta;
 
-			RemoveMoneyProcedure.execute(ImmutableMap.<String, Object>builder().put("entity", entity).build());
+			RemoveMoneyProcedure.execute(entity);
 		}
 	}
 

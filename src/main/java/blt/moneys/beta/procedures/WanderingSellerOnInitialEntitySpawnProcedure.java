@@ -3,24 +3,10 @@ package blt.moneys.beta.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 
-import java.util.Map;
-
-import blt.moneys.beta.MoneysMod;
-
 public class WanderingSellerOnInitialEntitySpawnProcedure {
-	public static void execute(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				MoneysMod.LOGGER.warn("Failed to load dependency entity for procedure WanderingSellerOnInitialEntitySpawn!");
+	public static void execute(LevelAccessor world, Entity entity) {
+		if (entity == null)
 			return;
-		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				MoneysMod.LOGGER.warn("Failed to load dependency world for procedure WanderingSellerOnInitialEntitySpawn!");
-			return;
-		}
-		Entity entity = (Entity) dependencies.get("entity");
-		LevelAccessor world = (LevelAccessor) dependencies.get("world");
 		if (!world.isClientSide()) {
 			entity.getPersistentData().putDouble("randomTrade1", Math.random());
 			if (entity.getPersistentData().getDouble("randomTrade1") >= 0.96) {

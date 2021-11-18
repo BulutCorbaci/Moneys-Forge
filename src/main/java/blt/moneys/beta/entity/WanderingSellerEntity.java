@@ -45,22 +45,15 @@ import net.minecraft.nbt.CompoundTag;
 
 import javax.annotation.Nullable;
 
-import java.util.Set;
-
-import com.google.common.collect.ImmutableMap;
-
 import blt.moneys.beta.procedures.WanderingSellerRightClickedOnEntityProcedure;
 import blt.moneys.beta.procedures.WanderingSellerOnInitialEntitySpawnProcedure;
 import blt.moneys.beta.init.MoneysModEntities;
 
 @Mod.EventBusSubscriber
 public class WanderingSellerEntity extends PathfinderMob {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of();
-
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		if (SPAWN_BIOMES.contains(event.getName()))
-			event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(MoneysModEntities.WANDERING_SELLER, 1, 1, 1));
+		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(MoneysModEntities.WANDERING_SELLER, 1, 1, 1));
 	}
 
 	public WanderingSellerEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
@@ -126,8 +119,7 @@ public class WanderingSellerEntity extends PathfinderMob {
 		double z = this.getZ();
 		Entity entity = this;
 
-		WanderingSellerOnInitialEntitySpawnProcedure
-				.execute(ImmutableMap.<String, Object>builder().put("entity", entity).put("world", world).build());
+		WanderingSellerOnInitialEntitySpawnProcedure.execute(world, entity);
 		return retval;
 	}
 
@@ -142,8 +134,7 @@ public class WanderingSellerEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		WanderingSellerRightClickedOnEntityProcedure.execute(ImmutableMap.<String, Object>builder().put("entity", entity)
-				.put("sourceentity", sourceentity).put("x", x).put("y", y).put("z", z).put("world", world).build());
+		WanderingSellerRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

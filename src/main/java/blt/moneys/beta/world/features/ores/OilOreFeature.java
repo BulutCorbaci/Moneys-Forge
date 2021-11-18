@@ -34,7 +34,8 @@ public class OilOreFeature extends OreFeature {
 	}
 
 	public boolean place(FeaturePlaceContext<OreConfiguration> context) {
-		ResourceKey<Level> dimensionType = context.level().getLevel().dimension();
+		Level world = context.level().getLevel();
+		ResourceKey<Level> dimensionType = world.dimension();
 		boolean dimensionCriteria = false;
 		if (dimensionType == Level.OVERWORLD)
 			dimensionCriteria = true;

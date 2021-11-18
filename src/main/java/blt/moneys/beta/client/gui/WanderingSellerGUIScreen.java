@@ -53,27 +53,25 @@ public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingS
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
-		int k = (this.width - this.imageWidth) / 2;
-		int l = (this.height - this.imageHeight) / 2;
-		this.blit(ms, k, l, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
-		this.blit(ms, 186, 62, 0, 0, 8, 16, 8, 16);
+		this.blit(ms, this.leftPos + 60, this.topPos + 34, 0, 0, 8, 16, 8, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
-		this.blit(ms, 204, 62, 0, 0, 8, 16, 8, 16);
+		this.blit(ms, this.leftPos + 78, this.topPos + 34, 0, 0, 8, 16, 8, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
-		this.blit(ms, 222, 62, 0, 0, 8, 16, 8, 16);
+		this.blit(ms, this.leftPos + 96, this.topPos + 34, 0, 0, 8, 16, 8, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
-		this.blit(ms, 195, 62, 0, 0, 8, 16, 8, 16);
+		this.blit(ms, this.leftPos + 69, this.topPos + 34, 0, 0, 8, 16, 8, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
-		this.blit(ms, 213, 62, 0, 0, 8, 16, 8, 16);
+		this.blit(ms, this.leftPos + 87, this.topPos + 34, 0, 0, 8, 16, 8, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("moneys:textures/arrow_side.png"));
-		this.blit(ms, 231, 62, 0, 0, 8, 16, 8, 16);
+		this.blit(ms, this.leftPos + 105, this.topPos + 34, 0, 0, 8, 16, 8, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -94,13 +92,18 @@ public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingS
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Input", 141 - this.leftPos, 71 - this.topPos, -12829636);
-		drawString(poseStack, this.font, "Output", 258 - this.leftPos, 71 - this.topPos, -12829636);
-		drawString(poseStack, this.font, "", 132 - this.leftPos, 44 - this.topPos, -12829636);
+		drawString(poseStack, this.font, "Input", 15, 43, -6710887);
+		drawString(poseStack, this.font, "Output", 132, 43, -6710887);
+		drawString(poseStack, this.font, "", 6, 7, -12829636);
 		drawString(poseStack, this.font, "" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new MoneysModVariables.PlayerVariables())).PageNumberTrade) + "", 204 - this.leftPos, 89 - this.topPos, -12829636);
+				.orElse(new MoneysModVariables.PlayerVariables())).PageNumberTrade) + "", 87, 52, -6710887);
 		drawString(poseStack, this.font, "" + ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new MoneysModVariables.PlayerVariables())).pagenumberminecoin) + "", 132 - this.leftPos, 44 - this.topPos, -12829636);
+				.orElse(new MoneysModVariables.PlayerVariables())).pagenumberminecoin) + "", 6, 7, -6710887);
+		drawString(poseStack, this.font, "For", 6, 16, -6710887);
+		drawString(poseStack, this.font, "" + ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new MoneysModVariables.PlayerVariables())).tradeitemname) + "", 24, 25, -6710887);
+		drawString(poseStack, this.font, "" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new MoneysModVariables.PlayerVariables())).tradeitemcount) + "", 6, 25, -6710887);
 	}
 
 	@Override
@@ -113,13 +116,13 @@ public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingS
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(150, 98, 56, 20, new TextComponent("< Back"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 24, this.topPos + 61, 56, 20, new TextComponent("< Back"), e -> {
 			if (true) {
 				MoneysMod.PACKET_HANDLER.sendToServer(new WanderingSellerGUIButtonMessage(0, x, y, z));
 				WanderingSellerGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(222, 98, 56, 20, new TextComponent("Next >"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 96, this.topPos + 61, 56, 20, new TextComponent("Next >"), e -> {
 			if (true) {
 				MoneysMod.PACKET_HANDLER.sendToServer(new WanderingSellerGUIButtonMessage(1, x, y, z));
 				WanderingSellerGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);

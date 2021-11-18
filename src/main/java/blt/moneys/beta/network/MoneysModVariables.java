@@ -74,6 +74,8 @@ public class MoneysModVariables {
 					.orElse(new PlayerVariables()));
 			clone.pagenumberminecoin = original.pagenumberminecoin;
 			clone.PageNumberTrade = original.PageNumberTrade;
+			clone.tradeitemname = original.tradeitemname;
+			clone.tradeitemcount = original.tradeitemcount;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -112,6 +114,8 @@ public class MoneysModVariables {
 	public static class PlayerVariables {
 		public String pagenumberminecoin = "NaN";
 		public double PageNumberTrade = 0;
+		public String tradeitemname = "NaN";
+		public double tradeitemcount = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +126,8 @@ public class MoneysModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putString("pagenumberminecoin", pagenumberminecoin);
 			nbt.putDouble("PageNumberTrade", PageNumberTrade);
+			nbt.putString("tradeitemname", tradeitemname);
+			nbt.putDouble("tradeitemcount", tradeitemcount);
 			return nbt;
 		}
 
@@ -129,6 +135,8 @@ public class MoneysModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			pagenumberminecoin = nbt.getString("pagenumberminecoin");
 			PageNumberTrade = nbt.getDouble("PageNumberTrade");
+			tradeitemname = nbt.getString("tradeitemname");
+			tradeitemcount = nbt.getDouble("tradeitemcount");
 		}
 	}
 
@@ -156,6 +164,8 @@ public class MoneysModVariables {
 							.orElse(new PlayerVariables()));
 					variables.pagenumberminecoin = message.data.pagenumberminecoin;
 					variables.PageNumberTrade = message.data.PageNumberTrade;
+					variables.tradeitemname = message.data.tradeitemname;
+					variables.tradeitemcount = message.data.tradeitemcount;
 				}
 			});
 			context.setPacketHandled(true);

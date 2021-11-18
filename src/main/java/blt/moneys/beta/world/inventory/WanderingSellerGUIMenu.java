@@ -76,9 +76,9 @@ public class WanderingSellerGUIMenu extends AbstractContainerMenu implements Sup
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 26) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 35) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 115, 26) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 115, 35) {
 			@Override
 			public void onTake(Player entity, ItemStack stack) {
 				super.onTake(entity, stack);

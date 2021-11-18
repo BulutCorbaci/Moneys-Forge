@@ -14,51 +14,14 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import java.util.Map;
-
 import io.netty.buffer.Unpooled;
 
 import blt.moneys.beta.world.inventory.WanderingSellerGUIMenu;
-import blt.moneys.beta.MoneysMod;
 
 public class WanderingSellerRightClickedOnEntityProcedure {
-	public static void execute(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				MoneysMod.LOGGER.warn("Failed to load dependency entity for procedure WanderingSellerRightClickedOnEntity!");
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
+		if (entity == null || sourceentity == null)
 			return;
-		}
-		if (dependencies.get("sourceentity") == null) {
-			if (!dependencies.containsKey("sourceentity"))
-				MoneysMod.LOGGER.warn("Failed to load dependency sourceentity for procedure WanderingSellerRightClickedOnEntity!");
-			return;
-		}
-		if (dependencies.get("x") == null) {
-			if (!dependencies.containsKey("x"))
-				MoneysMod.LOGGER.warn("Failed to load dependency x for procedure WanderingSellerRightClickedOnEntity!");
-			return;
-		}
-		if (dependencies.get("y") == null) {
-			if (!dependencies.containsKey("y"))
-				MoneysMod.LOGGER.warn("Failed to load dependency y for procedure WanderingSellerRightClickedOnEntity!");
-			return;
-		}
-		if (dependencies.get("z") == null) {
-			if (!dependencies.containsKey("z"))
-				MoneysMod.LOGGER.warn("Failed to load dependency z for procedure WanderingSellerRightClickedOnEntity!");
-			return;
-		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				MoneysMod.LOGGER.warn("Failed to load dependency world for procedure WanderingSellerRightClickedOnEntity!");
-			return;
-		}
-		Entity entity = (Entity) dependencies.get("entity");
-		Entity sourceentity = (Entity) dependencies.get("sourceentity");
-		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
-		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
-		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		LevelAccessor world = (LevelAccessor) dependencies.get("world");
 		sourceentity.getPersistentData().putDouble("playerTradeCount1", (entity.getPersistentData().getDouble("itemTradeCount1")));
 		sourceentity.getPersistentData().putDouble("playerTradeCount2", (entity.getPersistentData().getDouble("itemTradeCount2")));
 		sourceentity.getPersistentData().putDouble("playerTradeCount3", (entity.getPersistentData().getDouble("itemTradeCount3")));

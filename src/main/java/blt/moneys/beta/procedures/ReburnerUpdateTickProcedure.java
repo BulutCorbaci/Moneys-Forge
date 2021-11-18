@@ -11,37 +11,11 @@ import net.minecraft.core.BlockPos;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
 
 import blt.moneys.beta.init.MoneysModItems;
-import blt.moneys.beta.MoneysMod;
 
 public class ReburnerUpdateTickProcedure {
-	public static void execute(Map<String, Object> dependencies) {
-		if (dependencies.get("x") == null) {
-			if (!dependencies.containsKey("x"))
-				MoneysMod.LOGGER.warn("Failed to load dependency x for procedure ReburnerUpdateTick!");
-			return;
-		}
-		if (dependencies.get("y") == null) {
-			if (!dependencies.containsKey("y"))
-				MoneysMod.LOGGER.warn("Failed to load dependency y for procedure ReburnerUpdateTick!");
-			return;
-		}
-		if (dependencies.get("z") == null) {
-			if (!dependencies.containsKey("z"))
-				MoneysMod.LOGGER.warn("Failed to load dependency z for procedure ReburnerUpdateTick!");
-			return;
-		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				MoneysMod.LOGGER.warn("Failed to load dependency world for procedure ReburnerUpdateTick!");
-			return;
-		}
-		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
-		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
-		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		LevelAccessor world = (LevelAccessor) dependencies.get("world");
+	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);

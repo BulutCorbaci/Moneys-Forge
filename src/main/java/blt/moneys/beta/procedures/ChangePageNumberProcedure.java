@@ -2,15 +2,14 @@ package blt.moneys.beta.procedures;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.entity.Entity;
 
-import java.util.Map;
-import java.util.HashMap;
+import javax.annotation.Nullable;
 
 import blt.moneys.beta.network.MoneysModVariables;
-import blt.moneys.beta.MoneysMod;
 
 @Mod.EventBusSubscriber
 public class ChangePageNumberProcedure {
@@ -18,24 +17,17 @@ public class ChangePageNumberProcedure {
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
 			Entity entity = event.player;
-			Map<String, Object> dependencies = new HashMap<>();
-			dependencies.put("x", entity.getX());
-			dependencies.put("y", entity.getY());
-			dependencies.put("z", entity.getZ());
-			dependencies.put("world", entity.level);
-			dependencies.put("entity", entity);
-			dependencies.put("event", event);
-			execute(dependencies);
+			execute(event, entity);
 		}
 	}
 
-	public static void execute(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				MoneysMod.LOGGER.warn("Failed to load dependency entity for procedure ChangePageNumber!");
+	public static void execute(Entity entity) {
+		execute(null, entity);
+	}
+
+	private static void execute(@Nullable Event event, Entity entity) {
+		if (entity == null)
 			return;
-		}
-		Entity entity = (Entity) dependencies.get("entity");
 		if (entity.getPersistentData().getDouble("playerTradePage") == 1) {
 			{
 				String _setval = (String) "10 Minecoins";

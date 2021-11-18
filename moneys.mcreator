@@ -816,6 +816,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "ChangeItemNameOnWanderingSellerGUI",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_item_name_on_wandering_seller_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -830,15 +847,27 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "tradeitemname",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "NaN"
+    },
+    {
+      "name": "tradeitemcount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "block.moneys.money_fence": "Money Fence",
-      "block.moneys.money_stairs": "Money Stairs",
       "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
+      "block.moneys.money_stairs": "Money Stairs",
+      "block.moneys.money_fence": "Money Fence",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",
@@ -884,6 +913,7 @@
     "version": "2.0",
     "description": "A Mod That Adds Money to The Game!",
     "author": "BulutCorbaci",
+    "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -896,5 +926,5 @@
     "modElementsPackage": "blt.moneys.beta",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100345419
+  "mcreatorVersion": 202100347317
 }

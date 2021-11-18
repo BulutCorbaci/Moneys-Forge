@@ -14,8 +14,6 @@ import net.minecraft.core.BlockPos;
 import java.util.function.Supplier;
 import java.util.HashMap;
 
-import com.google.common.collect.ImmutableMap;
-
 import blt.moneys.beta.procedures.ChangePageProcedure;
 import blt.moneys.beta.procedures.ChangePageBackProcedure;
 import blt.moneys.beta.client.gui.WanderingSellerGUIScreen;
@@ -67,11 +65,11 @@ public class WanderingSellerGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			ChangePageBackProcedure.execute(ImmutableMap.<String, Object>builder().put("entity", entity).build());
+			ChangePageBackProcedure.execute(entity);
 		}
 		if (buttonID == 1) {
 
-			ChangePageProcedure.execute(ImmutableMap.<String, Object>builder().put("entity", entity).build());
+			ChangePageProcedure.execute(entity);
 		}
 	}
 

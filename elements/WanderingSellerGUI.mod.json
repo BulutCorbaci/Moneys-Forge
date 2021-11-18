@@ -21,7 +21,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 168,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -38,7 +38,7 @@
           },
           "name": "Slot #1",
           "x": 240,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -76,7 +76,7 @@
           "use1Xscale": false,
           "name": "arrow_side.png",
           "x": 186,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -86,7 +86,7 @@
           "use1Xscale": false,
           "name": "arrow_side.png",
           "x": 204,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -96,7 +96,7 @@
           "use1Xscale": false,
           "name": "arrow_side.png",
           "x": 222,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -106,7 +106,7 @@
           "use1Xscale": false,
           "name": "arrow_side.png",
           "x": 195,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -116,7 +116,7 @@
           "use1Xscale": false,
           "name": "arrow_side.png",
           "x": 213,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -126,7 +126,7 @@
           "use1Xscale": false,
           "name": "arrow_side.png",
           "x": 231,
-          "y": 62
+          "y": 71
         }
       },
       {
@@ -134,12 +134,12 @@
         "data": {
           "text": "Input",
           "color": {
-            "value": -12829636,
+            "value": -6710887,
             "falpha": 0.0
           },
           "name": "Input",
           "x": 141,
-          "y": 71
+          "y": 80
         }
       },
       {
@@ -147,12 +147,12 @@
         "data": {
           "text": "Output",
           "color": {
-            "value": -12829636,
+            "value": -6710887,
             "falpha": 0.0
           },
           "name": "Output",
           "x": 258,
-          "y": 71
+          "y": 80
         }
       },
       {
@@ -173,11 +173,11 @@
         "data": {
           "text": "<VAR:integer:PageNumberTrade>",
           "color": {
-            "value": -12829636,
+            "value": -6710887,
             "falpha": 0.0
           },
           "name": "<VAR:integer:PageNumberTrade>",
-          "x": 204,
+          "x": 213,
           "y": 89
         }
       },
@@ -186,12 +186,51 @@
         "data": {
           "text": "<VAR:pagenumberminecoin>",
           "color": {
-            "value": -12829636,
+            "value": -6710887,
             "falpha": 0.0
           },
           "name": "<VAR:pagenumberminecoin>",
           "x": 132,
           "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "For",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "For",
+          "x": 132,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:tradeitemname>",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "<VAR:tradeitemname>",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:tradeitemcount>",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:tradeitemcount>",
+          "x": 132,
+          "y": 62
         }
       }
     ],

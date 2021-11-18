@@ -2,6 +2,7 @@ package blt.moneys.beta.procedures;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.level.block.Blocks;
@@ -10,13 +11,13 @@ import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 
+import javax.annotation.Nullable;
+
 import java.util.function.Supplier;
 import java.util.Map;
-import java.util.HashMap;
 
 import blt.moneys.beta.init.MoneysModItems;
 import blt.moneys.beta.init.MoneysModBlocks;
-import blt.moneys.beta.MoneysMod;
 
 @Mod.EventBusSubscriber
 public class RemoveMoneyAndAddItemsProcedure {
@@ -24,24 +25,17 @@ public class RemoveMoneyAndAddItemsProcedure {
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
 			Entity entity = event.player;
-			Map<String, Object> dependencies = new HashMap<>();
-			dependencies.put("x", entity.getX());
-			dependencies.put("y", entity.getY());
-			dependencies.put("z", entity.getZ());
-			dependencies.put("world", entity.level);
-			dependencies.put("entity", entity);
-			dependencies.put("event", event);
-			execute(dependencies);
+			execute(event, entity);
 		}
 	}
 
-	public static void execute(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				MoneysMod.LOGGER.warn("Failed to load dependency entity for procedure RemoveMoneyAndAddItems!");
+	public static void execute(Entity entity) {
+		execute(null, entity);
+	}
+
+	private static void execute(@Nullable Event event, Entity entity) {
+		if (entity == null)
 			return;
-		}
-		Entity entity = (Entity) dependencies.get("entity");
 		if (entity.getPersistentData().getDouble("playerTradePage") == 1) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 					? ((Slot) _slt.get(0)).getItem()
@@ -125,7 +119,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem2") == 3) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.OIL_HARD);
+						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_HELMET);
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount2"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -133,7 +127,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem2") == 4) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_HELMET);
+						ItemStack _setstack = new ItemStack(Blocks.SLIME_BLOCK);
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount2"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();

@@ -41,8 +41,6 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-import com.google.common.collect.ImmutableMap;
-
 import blt.moneys.beta.world.inventory.ReburnerBetaGUIMenu;
 import blt.moneys.beta.procedures.ReburnerUpdateTickProcedure;
 import blt.moneys.beta.procedures.ReburnerOnBlockRightClickedProcedure;
@@ -105,7 +103,7 @@ public class ReburnerBlock extends Block
 		int y = pos.getY();
 		int z = pos.getZ();
 
-		ReburnerUpdateTickProcedure.execute(ImmutableMap.<String, Object>builder().put("x", x).put("y", y).put("z", z).put("world", world).build());
+		ReburnerUpdateTickProcedure.execute(world, x, y, z);
 		world.getBlockTicks().scheduleTick(pos, this, 60);
 	}
 
@@ -133,8 +131,7 @@ public class ReburnerBlock extends Block
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		ReburnerOnBlockRightClickedProcedure.execute(
-				ImmutableMap.<String, Object>builder().put("entity", entity).put("x", x).put("y", y).put("z", z).put("world", world).build());
+		ReburnerOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 

@@ -251,6 +251,45 @@
           "x": 213,
           "y": 80
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fuel",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Fuel",
+          "x": 141,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Minecoins",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Minecoins",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Output",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Output",
+          "x": 258,
+          "y": 53
+        }
       }
     ],
     "gridSettings": {

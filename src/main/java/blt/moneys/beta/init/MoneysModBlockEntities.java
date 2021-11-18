@@ -14,12 +14,14 @@ import net.minecraft.world.level.block.Block;
 import java.util.List;
 import java.util.ArrayList;
 
+import blt.moneys.beta.block.entity.ReturnerBlockEntity;
 import blt.moneys.beta.block.entity.ReburnerBlockEntity;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneysModBlockEntities {
 	private static final List<BlockEntityType<?>> REGISTRY = new ArrayList<>();
 	public static final BlockEntityType<?> REBURNER = register("moneys:reburner", MoneysModBlocks.REBURNER, ReburnerBlockEntity::new);
+	public static final BlockEntityType<?> RETURNER = register("moneys:returner", MoneysModBlocks.RETURNER, ReturnerBlockEntity::new);
 
 	private static BlockEntityType<?> register(String registryname, Block block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		BlockEntityType<?> blockEntityType = BlockEntityType.Builder.of(supplier, block).build(null).setRegistryName(registryname);

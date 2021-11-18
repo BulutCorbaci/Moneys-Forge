@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import java.util.List;
 import java.util.ArrayList;
 
+import blt.moneys.beta.block.ReturnerBlock;
 import blt.moneys.beta.block.ReburnerBlock;
 import blt.moneys.beta.block.OilOreBlock;
 import blt.moneys.beta.block.MoneyWoodBlock;
@@ -41,6 +42,7 @@ public class MoneysModBlocks {
 	public static final Block MONEY_FENCE_GATE = register(new MoneyFenceGateBlock());
 	public static final Block MONEY_PRESSURE_PLATE = register(new MoneyPressurePlateBlock());
 	public static final Block MONEY_BUTTON = register(new MoneyButtonBlock());
+	public static final Block RETURNER = register(new ReturnerBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

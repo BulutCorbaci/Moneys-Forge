@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moneys:blocks/reburner_top",
+    "up": "moneys:blocks/reburner_top",
+    "north": "moneys:blocks/returner_front",
+    "east": "moneys:blocks/reburner_side",
+    "south": "moneys:blocks/reburner_back",
+    "west": "moneys:blocks/reburner_side",
+    "particle": "moneys:blocks/reburner_top"
+  }
+}

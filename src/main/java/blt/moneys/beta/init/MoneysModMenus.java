@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 import blt.moneys.beta.world.inventory.WanderingSellerGUIMenu;
+import blt.moneys.beta.world.inventory.ReturnerGUIMenu;
 import blt.moneys.beta.world.inventory.ReburnerBetaGUIMenu;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -25,6 +26,8 @@ public class MoneysModMenus {
 			(id, inv, extraData) -> new ReburnerBetaGUIMenu(id, inv, extraData));
 	public static final MenuType<WanderingSellerGUIMenu> WANDERING_SELLER_GUI = register("wandering_seller_gui",
 			(id, inv, extraData) -> new WanderingSellerGUIMenu(id, inv, extraData));
+	public static final MenuType<ReturnerGUIMenu> RETURNER_GUI = register("returner_gui",
+			(id, inv, extraData) -> new ReturnerGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

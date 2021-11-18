@@ -71,6 +71,7 @@ public class MoneysModItems {
 	public static final Item WANDERING_SELLER = register(
 			new SpawnEggItem(MoneysModEntities.WANDERING_SELLER, -65536, -26368, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB))
 					.setRegistryName("wandering_seller_spawn_egg"));
+	public static final Item RETURNER = register(MoneysModBlocks.RETURNER, MoneysModTabs.TAB_MONEYS_TAB);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

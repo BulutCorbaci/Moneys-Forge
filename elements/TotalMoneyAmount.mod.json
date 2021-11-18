@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:totalmoneyonplayer>",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:totalmoneyonplayer>",
+          "x": 1,
+          "y": 227
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Total Money Amount",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "Total Money Amount",
+          "x": 1,
+          "y": 218
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 1,
+      "oy": 20,
+      "snapOnGrid": true
+    }
+  }
+}

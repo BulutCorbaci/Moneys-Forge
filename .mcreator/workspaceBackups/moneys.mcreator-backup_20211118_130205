@@ -833,6 +833,27 @@
           }
         ]
       }
+    },
+    {
+      "name": "TotalMoneyAmount",
+      "type": "overlay",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "total_money_amount"
+    },
+    {
+      "name": "UpdateTotalMoneyCount",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "update_total_money_count",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
@@ -846,7 +867,7 @@
       "name": "PageNumberTrade",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "tradeitemname",
@@ -859,15 +880,21 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0.0"
+    },
+    {
+      "name": "totalmoneyonplayer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
-      "block.moneys.money_stairs": "Money Stairs",
       "block.moneys.money_fence": "Money Fence",
+      "block.moneys.money_stairs": "Money Stairs",
+      "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",
@@ -917,6 +944,8 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/BulutCorbaci/Moneys-Forge/main/update.json",
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

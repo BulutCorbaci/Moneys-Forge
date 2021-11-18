@@ -76,6 +76,7 @@ public class MoneysModVariables {
 			clone.PageNumberTrade = original.PageNumberTrade;
 			clone.tradeitemname = original.tradeitemname;
 			clone.tradeitemcount = original.tradeitemcount;
+			clone.totalmoneyonplayer = original.totalmoneyonplayer;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -113,9 +114,10 @@ public class MoneysModVariables {
 
 	public static class PlayerVariables {
 		public String pagenumberminecoin = "NaN";
-		public double PageNumberTrade = 0;
+		public double PageNumberTrade = 0.0;
 		public String tradeitemname = "NaN";
 		public double tradeitemcount = 0.0;
+		public double totalmoneyonplayer = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -128,6 +130,7 @@ public class MoneysModVariables {
 			nbt.putDouble("PageNumberTrade", PageNumberTrade);
 			nbt.putString("tradeitemname", tradeitemname);
 			nbt.putDouble("tradeitemcount", tradeitemcount);
+			nbt.putDouble("totalmoneyonplayer", totalmoneyonplayer);
 			return nbt;
 		}
 
@@ -137,6 +140,7 @@ public class MoneysModVariables {
 			PageNumberTrade = nbt.getDouble("PageNumberTrade");
 			tradeitemname = nbt.getString("tradeitemname");
 			tradeitemcount = nbt.getDouble("tradeitemcount");
+			totalmoneyonplayer = nbt.getDouble("totalmoneyonplayer");
 		}
 	}
 
@@ -166,6 +170,7 @@ public class MoneysModVariables {
 					variables.PageNumberTrade = message.data.PageNumberTrade;
 					variables.tradeitemname = message.data.tradeitemname;
 					variables.tradeitemcount = message.data.tradeitemcount;
+					variables.totalmoneyonplayer = message.data.totalmoneyonplayer;
 				}
 			});
 			context.setPacketHandled(true);

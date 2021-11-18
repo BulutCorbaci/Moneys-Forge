@@ -917,6 +917,8 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/BulutCorbaci/Moneys-Forge/main/update.json",
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

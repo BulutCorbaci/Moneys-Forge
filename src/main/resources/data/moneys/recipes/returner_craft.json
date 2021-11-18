@@ -1,0 +1,42 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "minecraft:smooth_stone"
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone"
+    },
+    "4": {
+      "item": "minecraft:repeater"
+    },
+    "5": {
+      "item": "minecraft:dropper"
+    },
+    "6": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "minecraft:smooth_stone"
+    },
+    "8": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "moneys:returner",
+    "count": 1
+  }
+}

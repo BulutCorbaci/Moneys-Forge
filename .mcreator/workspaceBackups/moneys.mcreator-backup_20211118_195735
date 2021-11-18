@@ -859,6 +859,57 @@
           }
         ]
       }
+    },
+    {
+      "name": "ReturnerGUI",
+      "type": "gui",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "returner_gui"
+    },
+    {
+      "name": "Returner",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "returner"
+    },
+    {
+      "name": "ReturnerGUIButtonClick",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "returner_gui_button_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -897,9 +948,9 @@
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "block.moneys.money_fence": "Money Fence",
-      "block.moneys.money_stairs": "Money Stairs",
       "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
+      "block.moneys.money_stairs": "Money Stairs",
+      "block.moneys.money_fence": "Money Fence",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",
@@ -929,6 +980,7 @@
       "item.moneys.black_oil": "Blackened Oil",
       "item.moneys.hardened_oil_armor_leggings": "HardenedOil Leggings",
       "advancements.obtain_1_minecoin.descr": "Craft/Find your First Minecoin",
+      "block.moneys.returner": "Returner",
       "item.moneys.minecoin_2000": "Minecoin 2000",
       "block.moneys.oil_ore": "Oil Ore",
       "block.moneys.money_planks": "Money Planks",

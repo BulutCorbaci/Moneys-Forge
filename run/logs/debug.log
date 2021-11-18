@@ -1,186 +1,188 @@
-[18Nov2021 17:36:59.413] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, C:\Users\brcbu\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 37.0.109, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
-[18Nov2021 17:36:59.425] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.1 by AdoptOpenJDK
-[18Nov2021 17:36:59.458] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness]
-[18Nov2021 17:36:59.508] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
-[18Nov2021 17:36:59.547] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,capability_token_subclass,capability_inject_definalize,accesstransformer,runtimedistcleaner]
-[18Nov2021 17:36:59.583] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[18Nov2021 17:36:59.600] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@d3957fe
-[18Nov2021 17:36:59.633] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
-[18Nov2021 17:36:59.634] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[18Nov2021 17:36:59.637] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[18Nov2021 17:36:59.639] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[18Nov2021 17:36:59.640] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[18Nov2021 17:36:59.646] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
-[18Nov2021 17:36:59.648] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
-[18Nov2021 17:36:59.649] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.0.7+91+master.8569cdf
-[18Nov2021 17:36:59.652] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[18Nov2021 17:36:59.654] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.3+70+master.d7d405b
-[18Nov2021 17:36:59.655] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[18Nov2021 17:36:59.661] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
-[18Nov2021 17:36:59.663] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.10+24+master.876d7985
-[18Nov2021 17:36:59.664] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
-[18Nov2021 17:36:59.671] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[18Nov2021 17:36:59.675] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[18Nov2021 17:36:59.699] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[18Nov2021 17:36:59.702] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[18Nov2021 17:36:59.841] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@149494d8
-[18Nov2021 17:36:59.898] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/C:/Users/brcbu/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar%2325! Service=ModLauncher Env=CLIENT
-[18Nov2021 17:36:59.908] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[18Nov2021 17:36:59.911] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Nov2021 17:36:59.915] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Nov2021 17:36:59.916] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Nov2021 17:36:59.918] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Nov2021 17:36:59.919] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[18Nov2021 17:36:59.926] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[18Nov2021 17:36:59.929] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[18Nov2021 17:36:59.930] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[18Nov2021 17:36:59.934] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\moneys\Moneys-Forge\run
-[18Nov2021 17:36:59.936] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\moneys\Moneys-Forge\run
-[18Nov2021 17:36:59.937] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\moneys\Moneys-Forge\run\mods
-[18Nov2021 17:36:59.940] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\moneys\Moneys-Forge\run\mods
-[18Nov2021 17:36:59.943] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\moneys\Moneys-Forge\run\config
-[18Nov2021 17:36:59.953] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\moneys\Moneys-Forge\run\config
-[18Nov2021 17:36:59.953] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\moneys\Moneys-Forge\run\config\fml.toml
-[18Nov2021 17:36:59.953] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[18Nov2021 17:37:00.112] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\moneys\Moneys-Forge\run\defaultconfigs
-[18Nov2021 17:37:00.114] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[18Nov2021 17:37:00.127] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[18Nov2021 17:37:00.130] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
-[18Nov2021 17:37:00.187] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=37.0.109, mcVersion=1.17.1, mcpVersion=20210706.113038, forgeGroup=net.minecraftforge]
-[18Nov2021 17:37:00.208] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[18Nov2021 17:37:00.213] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
-[18Nov2021 17:37:00.218] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
-[18Nov2021 17:37:00.219] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[18Nov2021 17:37:00.220] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[18Nov2021 17:37:00.221] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[18Nov2021 17:37:00.223] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[18Nov2021 17:37:00.223] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[18Nov2021 17:37:00.249] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[18Nov2021 17:37:00.254] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
-[18Nov2021 17:37:00.269] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates examplemod%%C:\moneys\Moneys-Forge\build\resources\main;examplemod%%C:\moneys\Moneys-Forge\build\classes\java\main from env
-[18Nov2021 17:37:00.274] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{examplemod=[C:\moneys\Moneys-Forge\build\resources\main, C:\moneys\Moneys-Forge\build\classes\java\main]}]
-[18Nov2021 17:37:00.942] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar with {minecraft} mods - versions {1.17.1}
-[18Nov2021 17:37:00.955] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\brcbu\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.17.1-37.0.109_mapped_official_1.17.1\forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[18Nov2021 17:37:00.959] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\moneys\Moneys-Forge\build\resources\main
-[18Nov2021 17:37:00.979] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {moneys} mods - versions {2.0}
-[18Nov2021 17:37:00.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\moneys\Moneys-Forge\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[37,)]]
-[18Nov2021 17:37:00.983] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
-[18Nov2021 17:37:01.008] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {37.0.109}
-[18Nov2021 17:37:01.011] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
-[18Nov2021 17:37:01.121] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
-[18Nov2021 17:37:01.123] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
-[18Nov2021 17:37:01.124] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
-[18Nov2021 17:37:01.125] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
-[18Nov2021 17:37:01.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
-[18Nov2021 17:37:01.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
-[18Nov2021 17:37:01.134] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[18Nov2021 17:37:01.669] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
-[18Nov2021 17:37:01.672] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
-[18Nov2021 17:37:01.675] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 37
-[18Nov2021 17:37:01.694] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mod requirements (1 mandatory, 0 optional)
-[18Nov2021 17:37:01.696] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[18Nov2021 17:37:02.807] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 26870 method mappings from methods.csv
-[18Nov2021 17:37:02.864] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 25986 field mappings from fields.csv
-[18Nov2021 17:37:03.063] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
-[18Nov2021 17:37:03.066] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
-[18Nov2021 17:37:03.084] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
-[18Nov2021 17:37:03.086] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
-[18Nov2021 17:37:03.087] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
-[18Nov2021 17:37:03.089] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
-[18Nov2021 17:37:03.699] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[18Nov2021 17:37:03.700] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
-[18Nov2021 17:37:03.904] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[18Nov2021 17:37:03.906] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
-[18Nov2021 17:37:04.069] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[18Nov2021 17:37:04.099] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64f1fd08 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
-[18Nov2021 17:37:04.105] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@27df0f3d to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
-[18Nov2021 17:37:04.107] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@c35af2a to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
-[18Nov2021 17:37:04.108] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@44550792 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
-[18Nov2021 17:37:04.109] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1835d3ed to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
-[18Nov2021 17:37:04.110] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@474c9131 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
-[18Nov2021 17:37:04.113] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
-[18Nov2021 17:37:05.286] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[18Nov2021 17:37:05.288] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[18Nov2021 17:37:05.289] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
-[18Nov2021 17:37:05.290] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
-[18Nov2021 17:37:05.291] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
-[18Nov2021 17:37:05.292] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
-[18Nov2021 17:37:05.293] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
-[18Nov2021 17:37:05.294] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[18Nov2021 17:37:05.295] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(moneys)
-[18Nov2021 17:37:05.296] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(moneys)
-[18Nov2021 17:37:05.297] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(moneys)
-[18Nov2021 17:37:05.297] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(moneys)
-[18Nov2021 17:37:05.298] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(moneys)
-[18Nov2021 17:37:05.299] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moneys)]
-[18Nov2021 17:37:05.300] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
-[18Nov2021 17:37:05.301] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
-[18Nov2021 17:37:05.303] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
-[18Nov2021 17:37:05.304] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
-[18Nov2021 17:37:05.318] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
-[18Nov2021 17:37:05.319] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[18Nov2021 17:37:05.321] [main/DEBUG] [mixin/]: inject() running with 4 agents
-[18Nov2021 17:37:05.326] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[18Nov2021 17:37:05.344] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[18Nov2021 17:37:05.346] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moneys)]
-[18Nov2021 17:37:05.350] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[18Nov2021 17:37:05.358] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\brcbu\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.17]
-[18Nov2021 17:37:05.683] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
-[18Nov2021 17:37:05.702] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[18Nov2021 17:37:10.429] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
-[18Nov2021 17:37:10.725] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
-[18Nov2021 17:37:14.342] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
-[18Nov2021 17:37:22.674] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
-[18Nov2021 17:37:23.554] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
-[18Nov2021 17:37:28.233] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Nov2021 17:37:32.816] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
-[18Nov2021 17:37:32.849] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@859ea42 - got cpw.mods.cl.ModuleClassLoader@5ed190be
-[18Nov2021 17:37:32.849] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
-[18Nov2021 17:37:32.878] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@859ea42 - got cpw.mods.cl.ModuleClassLoader@5ed190be
-[18Nov2021 17:37:32.879] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for blt.moneys.beta.MoneysMod
-[18Nov2021 17:37:33.071] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for moneys
-[18Nov2021 17:37:33.081] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.client.gui.TotalMoneyAmountOverlay to FORGE
-[18Nov2021 17:37:33.139] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.entity.WanderingSellerEntity to FORGE
-[18Nov2021 17:37:33.352] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModBiomes to MOD
-[18Nov2021 17:37:33.553] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModBlockEntities to MOD
-[18Nov2021 17:37:33.562] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModBlocks to MOD
-[18Nov2021 17:37:33.563] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModEntities to MOD
-[18Nov2021 17:37:33.672] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModEntityRenderers to MOD
-[18Nov2021 17:37:33.677] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModFeatures$BiomeFeatureLoader to FORGE
-[18Nov2021 17:37:33.682] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModFeatures to MOD
-[18Nov2021 17:37:33.699] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModItems to MOD
-[18Nov2021 17:37:33.720] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
-[18Nov2021 17:37:33.721] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
-[18Nov2021 17:37:33.722] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
-[18Nov2021 17:37:33.872] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModMenus to MOD
-[18Nov2021 17:37:33.887] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModScreens to MOD
-[18Nov2021 17:37:33.892] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.MoneysModVariables$EventBusVariableHandlers to FORGE
-[18Nov2021 17:37:33.967] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[18Nov2021 17:37:33.969] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
-[18Nov2021 17:37:33.973] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
-[18Nov2021 17:37:33.975] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.MoneysModVariables$PlayerVariablesProvider to FORGE
-[18Nov2021 17:37:33.990] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.MoneysModVariables to MOD
-[18Nov2021 17:37:33.990] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
-[18Nov2021 17:37:34.011] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
-[18Nov2021 17:37:34.027] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.ReburnerBetaGUISlotMessage to MOD
-[18Nov2021 17:37:34.031] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.ReturnerGUIButtonMessage to MOD
-[18Nov2021 17:37:34.038] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.WanderingSellerGUIButtonMessage to MOD
-[18Nov2021 17:37:34.074] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.WanderingSellerGUISlotMessage to MOD
-[18Nov2021 17:37:34.079] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.ChangeItemNameOnWanderingSellerGUIProcedure to FORGE
-[18Nov2021 17:37:34.087] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.ChangePageNumberProcedure to FORGE
-[18Nov2021 17:37:34.094] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.RemoveMoneyAndAddItemsProcedure to FORGE
-[18Nov2021 17:37:34.098] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.UpdateTotalMoneyCountProcedure to FORGE
-[18Nov2021 17:37:38.285] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[18Nov2021 17:37:39.542] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
-[18Nov2021 17:37:39.546] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\moneys\Moneys-Forge\run\config\forge-client.toml
-[18Nov2021 17:37:39.550] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\moneys\Moneys-Forge\run\config\forge-client.toml
-[18Nov2021 17:37:39.576] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\moneys\Moneys-Forge\run\config\forge-client.toml for changes
-[18Nov2021 17:37:39.582] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[18Nov2021 17:37:39.583] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\moneys\Moneys-Forge\run\config\forge-common.toml
-[18Nov2021 17:37:39.607] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\moneys\Moneys-Forge\run\config\forge-common.toml
-[18Nov2021 17:37:39.607] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\moneys\Moneys-Forge\run\config\forge-common.toml for changes
-[18Nov2021 17:37:40.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18Nov2021 17:37:43.255] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+[18Nov2021 19:00:38.901] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.17, --assetsDir, C:\Users\brcbu\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 37.0.109, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[18Nov2021 19:00:38.913] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 16.0.1 by AdoptOpenJDK
+[18Nov2021 19:00:38.949] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness]
+[18Nov2021 19:00:39.007] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[18Nov2021 19:00:39.047] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,capability_token_subclass,capability_inject_definalize,accesstransformer,runtimedistcleaner]
+[18Nov2021 19:00:39.080] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[18Nov2021 19:00:39.097] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@299321e2
+[18Nov2021 19:00:39.124] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[18Nov2021 19:00:39.125] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[18Nov2021 19:00:39.127] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[18Nov2021 19:00:39.129] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[18Nov2021 19:00:39.131] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[18Nov2021 19:00:39.136] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[18Nov2021 19:00:39.139] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[18Nov2021 19:00:39.140] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.0.7+91+master.8569cdf
+[18Nov2021 19:00:39.142] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[18Nov2021 19:00:39.144] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.3+70+master.d7d405b
+[18Nov2021 19:00:39.146] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[18Nov2021 19:00:39.158] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[18Nov2021 19:00:39.160] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.10+24+master.876d7985
+[18Nov2021 19:00:39.177] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
+[18Nov2021 19:00:39.194] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[18Nov2021 19:00:39.199] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[18Nov2021 19:00:39.218] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[18Nov2021 19:00:39.221] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[18Nov2021 19:00:39.271] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@149494d8
+[18Nov2021 19:00:39.336] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/C:/Users/brcbu/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.4/4ec7d77d9ab32596ca0b78bb123956734767e3a/mixin-0.8.4.jar%2325! Service=ModLauncher Env=CLIENT
+[18Nov2021 19:00:39.347] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[18Nov2021 19:00:39.348] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Nov2021 19:00:39.350] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Nov2021 19:00:39.352] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Nov2021 19:00:39.355] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Nov2021 19:00:39.359] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[18Nov2021 19:00:39.371] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[18Nov2021 19:00:39.372] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[18Nov2021 19:00:39.374] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[18Nov2021 19:00:39.377] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\moneys\Moneys-Forge\run
+[18Nov2021 19:00:39.380] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\moneys\Moneys-Forge\run
+[18Nov2021 19:00:39.384] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\moneys\Moneys-Forge\run\mods
+[18Nov2021 19:00:39.388] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\moneys\Moneys-Forge\run\mods
+[18Nov2021 19:00:39.390] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\moneys\Moneys-Forge\run\config
+[18Nov2021 19:00:39.401] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\moneys\Moneys-Forge\run\config
+[18Nov2021 19:00:39.402] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\moneys\Moneys-Forge\run\config\fml.toml
+[18Nov2021 19:00:39.403] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[18Nov2021 19:00:39.559] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\moneys\Moneys-Forge\run\defaultconfigs
+[18Nov2021 19:00:39.560] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[18Nov2021 19:00:39.569] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[18Nov2021 19:00:39.570] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[18Nov2021 19:00:39.629] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=37.0.109, mcVersion=1.17.1, mcpVersion=20210706.113038, forgeGroup=net.minecraftforge]
+[18Nov2021 19:00:39.635] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[18Nov2021 19:00:39.639] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[18Nov2021 19:00:39.642] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[18Nov2021 19:00:39.643] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[18Nov2021 19:00:39.645] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[18Nov2021 19:00:39.646] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[18Nov2021 19:00:39.647] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[18Nov2021 19:00:39.648] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[18Nov2021 19:00:39.747] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[18Nov2021 19:00:39.801] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[18Nov2021 19:00:39.835] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates examplemod%%C:\moneys\Moneys-Forge\build\resources\main;examplemod%%C:\moneys\Moneys-Forge\build\classes\java\main from env
+[18Nov2021 19:00:39.841] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{examplemod=[C:\moneys\Moneys-Forge\build\resources\main, C:\moneys\Moneys-Forge\build\classes\java\main]}]
+[18Nov2021 19:00:40.627] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar with {minecraft} mods - versions {1.17.1}
+[18Nov2021 19:00:40.640] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\brcbu\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.17.1-37.0.109_mapped_official_1.17.1\forge-1.17.1-37.0.109_mapped_official_1.17.1-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[18Nov2021 19:00:40.644] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\moneys\Moneys-Forge\build\resources\main
+[18Nov2021 19:00:40.675] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {moneys} mods - versions {2.0}
+[18Nov2021 19:00:40.676] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\moneys\Moneys-Forge\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[37,)]]
+[18Nov2021 19:00:40.678] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[18Nov2021 19:00:40.683] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {37.0.109}
+[18Nov2021 19:00:40.684] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[18Nov2021 19:00:40.778] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[18Nov2021 19:00:40.779] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[18Nov2021 19:00:40.780] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[18Nov2021 19:00:40.782] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[18Nov2021 19:00:40.783] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[18Nov2021 19:00:40.787] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[18Nov2021 19:00:40.792] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[18Nov2021 19:00:41.357] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[18Nov2021 19:00:41.360] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[18Nov2021 19:00:41.363] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 37
+[18Nov2021 19:00:41.381] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mod requirements (1 mandatory, 0 optional)
+[18Nov2021 19:00:41.384] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[18Nov2021 19:00:42.491] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 26870 method mappings from methods.csv
+[18Nov2021 19:00:42.543] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 25986 field mappings from fields.csv
+[18Nov2021 19:00:42.737] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[18Nov2021 19:00:42.740] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[18Nov2021 19:00:42.763] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[18Nov2021 19:00:42.764] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[18Nov2021 19:00:42.765] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[18Nov2021 19:00:42.767] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[18Nov2021 19:00:43.386] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[18Nov2021 19:00:43.386] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[18Nov2021 19:00:43.651] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[18Nov2021 19:00:43.652] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[18Nov2021 19:00:43.793] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[18Nov2021 19:00:43.828] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@706fe5c6 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[18Nov2021 19:00:43.831] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6629ad09 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[18Nov2021 19:00:43.833] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@43e1692f to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[18Nov2021 19:00:43.834] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3e7c4815 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[18Nov2021 19:00:43.835] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@27df0f3d to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[18Nov2021 19:00:43.836] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@c35af2a to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[18Nov2021 19:00:43.837] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[18Nov2021 19:00:45.046] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[18Nov2021 19:00:45.048] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[18Nov2021 19:00:45.049] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[18Nov2021 19:00:45.050] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[18Nov2021 19:00:45.052] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[18Nov2021 19:00:45.061] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[18Nov2021 19:00:45.069] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[18Nov2021 19:00:45.074] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[18Nov2021 19:00:45.075] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(moneys)
+[18Nov2021 19:00:45.076] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(moneys)
+[18Nov2021 19:00:45.077] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(moneys)
+[18Nov2021 19:00:45.080] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(moneys)
+[18Nov2021 19:00:45.087] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(moneys)
+[18Nov2021 19:00:45.088] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moneys)]
+[18Nov2021 19:00:45.089] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[18Nov2021 19:00:45.091] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[18Nov2021 19:00:45.092] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[18Nov2021 19:00:45.093] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[18Nov2021 19:00:45.094] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[18Nov2021 19:00:45.096] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[18Nov2021 19:00:45.099] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[18Nov2021 19:00:45.102] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[18Nov2021 19:00:45.106] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[18Nov2021 19:00:45.107] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(moneys)]
+[18Nov2021 19:00:45.109] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[18Nov2021 19:00:45.115] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\brcbu\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.17]
+[18Nov2021 19:00:45.400] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[18Nov2021 19:00:45.419] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[18Nov2021 19:00:49.557] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[18Nov2021 19:00:49.740] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[18Nov2021 19:00:52.133] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[18Nov2021 19:00:59.597] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[18Nov2021 19:01:00.229] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[18Nov2021 19:01:03.371] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Nov2021 19:01:07.942] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
+[18Nov2021 19:01:07.983] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@36c0d0bd - got cpw.mods.cl.ModuleClassLoader@5bbc9f97
+[18Nov2021 19:01:07.984] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[18Nov2021 19:01:07.999] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@36c0d0bd - got cpw.mods.cl.ModuleClassLoader@5bbc9f97
+[18Nov2021 19:01:07.999] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for blt.moneys.beta.MoneysMod
+[18Nov2021 19:01:08.771] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for moneys
+[18Nov2021 19:01:08.836] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.client.gui.TotalMoneyAmountOverlay to FORGE
+[18Nov2021 19:01:08.850] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.entity.WanderingSellerEntity to FORGE
+[18Nov2021 19:01:09.100] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModBiomes to MOD
+[18Nov2021 19:01:09.400] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModBlockEntities to MOD
+[18Nov2021 19:01:09.406] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[18Nov2021 19:01:09.407] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[18Nov2021 19:01:09.409] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[18Nov2021 19:01:09.411] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModBlocks to MOD
+[18Nov2021 19:01:09.412] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModEntities to MOD
+[18Nov2021 19:01:09.421] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModEntityRenderers to MOD
+[18Nov2021 19:01:09.425] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModFeatures$BiomeFeatureLoader to FORGE
+[18Nov2021 19:01:09.493] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModFeatures to MOD
+[18Nov2021 19:01:09.503] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModItems to MOD
+[18Nov2021 19:01:09.593] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[18Nov2021 19:01:09.594] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[18Nov2021 19:01:09.598] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[18Nov2021 19:01:09.625] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModMenus to MOD
+[18Nov2021 19:01:09.632] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.init.MoneysModScreens to MOD
+[18Nov2021 19:01:09.659] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.MoneysModVariables$EventBusVariableHandlers to FORGE
+[18Nov2021 19:01:09.669] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[18Nov2021 19:01:09.672] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.MoneysModVariables$PlayerVariablesProvider to FORGE
+[18Nov2021 19:01:09.672] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[18Nov2021 19:01:09.678] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.MoneysModVariables to MOD
+[18Nov2021 19:01:09.702] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.ReburnerBetaGUISlotMessage to MOD
+[18Nov2021 19:01:09.833] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.ReturnerGUIButtonMessage to MOD
+[18Nov2021 19:01:09.836] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.WanderingSellerGUIButtonMessage to MOD
+[18Nov2021 19:01:09.839] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.network.WanderingSellerGUISlotMessage to MOD
+[18Nov2021 19:01:09.845] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.ChangeItemNameOnWanderingSellerGUIProcedure to FORGE
+[18Nov2021 19:01:09.851] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.ChangePageNumberProcedure to FORGE
+[18Nov2021 19:01:09.854] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.RemoveMoneyAndAddItemsProcedure to FORGE
+[18Nov2021 19:01:09.858] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing blt.moneys.beta.procedures.UpdateTotalMoneyCountProcedure to FORGE
+[18Nov2021 19:01:13.725] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[18Nov2021 19:01:15.043] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[18Nov2021 19:01:15.046] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\moneys\Moneys-Forge\run\config\forge-client.toml
+[18Nov2021 19:01:15.187] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\moneys\Moneys-Forge\run\config\forge-client.toml
+[18Nov2021 19:01:15.279] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\moneys\Moneys-Forge\run\config\forge-client.toml for changes
+[18Nov2021 19:01:15.286] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[18Nov2021 19:01:15.286] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\moneys\Moneys-Forge\run\config\forge-common.toml
+[18Nov2021 19:01:15.435] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\moneys\Moneys-Forge\run\config\forge-common.toml
+[18Nov2021 19:01:15.463] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\moneys\Moneys-Forge\run\config\forge-common.toml for changes
+[18Nov2021 19:01:47.628] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue CONSTRUCT: 2 jobs
+[18Nov2021 19:01:47.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Nov2021 19:01:47.765] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 124.6 ms
+[18Nov2021 19:01:50.073] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
 {
   "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
   "promos": {
@@ -254,9 +256,9 @@
     "1.17.1-latest": "37.0.109"
   }
 }
-[18Nov2021 17:37:43.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 37.0.109 Target: 37.0.109
-[18Nov2021 17:37:43.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moneys] Starting version check at https://raw.githubusercontent.com/BulutCorbaci/Moneys-Forge/main/update.json
-[18Nov2021 17:37:43.844] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [moneys] Received version check data:
+[18Nov2021 19:01:50.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 37.0.109 Target: 37.0.109
+[18Nov2021 19:01:50.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moneys] Starting version check at https://raw.githubusercontent.com/BulutCorbaci/Moneys-Forge/main/update.json
+[18Nov2021 19:01:50.963] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [moneys] Received version check data:
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/moneys",
   "promos": {
@@ -264,7 +266,7 @@
     "1.17.1-recommended": "2.0",
   }
 }
-[18Nov2021 17:37:43.845] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[18Nov2021 19:01:50.964] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 6 column 4 path $..1.17.1-recommended
 	at com.google.gson.Gson.fromJson(Gson.java:902) ~[gson-2.8.0.jar%2327!:?]
 	at com.google.gson.Gson.fromJson(Gson.java:852) ~[gson-2.8.0.jar%2327!:?]
@@ -283,15 +285,13 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.0.jar%2327!:?]
 	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar%2327!:?]
 	... 6 more
-[18Nov2021 17:38:25.394] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue CONSTRUCT: 2 jobs
-[18Nov2021 17:38:25.526] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 126.3 ms
-[18Nov2021 17:38:25.887] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue SIDED_SETUP: 1 jobs
-[18Nov2021 17:38:26.213] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 326.2 ms
-[18Nov2021 17:39:48.504] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18Nov2021 17:39:49.624] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\TEST\serverconfig
-[18Nov2021 17:39:49.625] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[18Nov2021 17:39:49.625] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\TEST\serverconfig\forge-server.toml
-[18Nov2021 17:39:49.627] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\TEST\serverconfig\forge-server.toml
-[18Nov2021 17:39:49.718] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\TEST\serverconfig\forge-server.toml for changes
-[18Nov2021 17:41:51.742] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\TEST\serverconfig
-[18Nov2021 17:41:51.742] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[18Nov2021 19:01:54.761] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue SIDED_SETUP: 1 jobs
+[18Nov2021 19:01:54.954] [Render thread/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 192.5 ms
+[18Nov2021 19:02:59.126] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Nov2021 19:02:59.852] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\TEST\serverconfig
+[18Nov2021 19:02:59.879] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[18Nov2021 19:02:59.880] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\TEST\serverconfig\forge-server.toml
+[18Nov2021 19:02:59.946] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\TEST\serverconfig\forge-server.toml
+[18Nov2021 19:02:59.948] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\TEST\serverconfig\forge-server.toml for changes
+[18Nov2021 19:03:48.540] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\TEST\serverconfig
+[18Nov2021 19:03:48.540] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER

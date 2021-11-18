@@ -76,12 +76,6 @@ public class ReturnerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 42, 40) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 123, 22) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 141, 22) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -125,6 +119,12 @@ public class ReturnerGUIMenu extends AbstractContainerMenu implements Supplier<M
 			}
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 159, 58) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 123, 22) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -261,8 +261,6 @@ public class ReturnerGUIMenu extends AbstractContainerMenu implements Supplier<M
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
-					if (j == 1)
-						continue;
 					if (j == 2)
 						continue;
 					if (j == 3)
@@ -279,12 +277,12 @@ public class ReturnerGUIMenu extends AbstractContainerMenu implements Supplier<M
 						continue;
 					if (j == 9)
 						continue;
+					if (j == 1)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
-					if (i == 1)
-						continue;
 					if (i == 2)
 						continue;
 					if (i == 3)
@@ -300,6 +298,8 @@ public class ReturnerGUIMenu extends AbstractContainerMenu implements Supplier<M
 					if (i == 8)
 						continue;
 					if (i == 9)
+						continue;
+					if (i == 1)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

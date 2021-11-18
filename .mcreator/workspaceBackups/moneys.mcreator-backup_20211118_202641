@@ -864,7 +864,7 @@
       "name": "ReturnerGUI",
       "type": "gui",
       "sortid": 77,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "returner_gui"
@@ -877,6 +877,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "returner"
+    },
+    {
+      "name": "ReturnerGUIButtonClick",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "returner_gui_button_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -915,9 +932,9 @@
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "block.moneys.money_fence": "Money Fence",
-      "block.moneys.money_stairs": "Money Stairs",
       "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
+      "block.moneys.money_stairs": "Money Stairs",
+      "block.moneys.money_fence": "Money Fence",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",

@@ -40,17 +40,6 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 1,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": false,
-          "name": "Slot #1",
-          "x": 231,
-          "y": 53
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
@@ -158,6 +147,17 @@
           "name": "Return",
           "x": 177,
           "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 231,
+          "y": 53
         }
       }
     ],

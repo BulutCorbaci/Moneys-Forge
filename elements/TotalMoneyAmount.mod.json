@@ -13,7 +13,7 @@
             "falpha": 0.0
           },
           "name": "<VAR:integer:totalmoneyonplayer>",
-          "x": 1,
+          "x": 307,
           "y": 227
         }
       },
@@ -26,7 +26,7 @@
             "falpha": 0.0
           },
           "name": "Total Money Amount",
-          "x": 1,
+          "x": 307,
           "y": 218
         }
       }

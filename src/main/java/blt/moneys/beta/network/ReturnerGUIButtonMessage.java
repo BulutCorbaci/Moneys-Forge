@@ -64,7 +64,7 @@ public class ReturnerGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			ReturnerGUIButtonClickProcedure.execute(world, x, y, z, entity);
+			ReturnerGUIButtonClickProcedure.execute(world, x, y, z);
 		}
 	}
 

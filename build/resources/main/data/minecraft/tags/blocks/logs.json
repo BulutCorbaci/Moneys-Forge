@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "moneys:money_log",
+    "moneys:money_wood"
+  ]
+}

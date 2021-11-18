@@ -38,12 +38,13 @@ public class TotalMoneyAmountOverlay {
 			double y = _y;
 			double z = _z;
 			if (true) {
-				Minecraft.getInstance().font
-						.draw(event.getMatrixStack(),
-								"" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-										.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer) + "",
-								posX + -212, posY + 107, -6710887);
-				Minecraft.getInstance().font.draw(event.getMatrixStack(), "Total Money Amount", posX + -212, posY + 98, -6710887);
+				Minecraft
+						.getInstance().font
+								.draw(event.getMatrixStack(),
+										"" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+												.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer) + "",
+										posX + 94, posY + 107, -6710887);
+				Minecraft.getInstance().font.draw(event.getMatrixStack(), "Total Money Amount", posX + 94, posY + 98, -6710887);
 			}
 		}
 	}

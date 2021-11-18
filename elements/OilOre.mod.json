@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "oil_ore",
+    "texture": "oil_ore_2",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -133,6 +133,6 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 82
+    "maxGenerateHeight": 62
   }
 }

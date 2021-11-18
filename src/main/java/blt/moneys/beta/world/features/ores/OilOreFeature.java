@@ -26,7 +26,7 @@ public class OilOreFeature extends OreFeature {
 	public static final OilOreFeature FEATURE = (OilOreFeature) new OilOreFeature().setRegistryName("moneys:oil_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
 			.configured(new OreConfiguration(OilOreFeatureRuleTest.INSTANCE, MoneysModBlocks.OIL_ORE.defaultBlockState(), 16))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(82)))).squared().count(10);
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(62)))).squared().count(10);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public OilOreFeature() {

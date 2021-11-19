@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class MoneyButtonBlock extends WoodButtonBlock {
 	public MoneyButtonBlock() {
-		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(6f, 9f).lightLevel(s -> 0));
+		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 9f).lightLevel(s -> 0));
 		setRegistryName("money_button");
 	}
 

@@ -25,7 +25,7 @@ public class MoneyWoodBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public MoneyWoodBlock() {
-		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(6f, 4.816449370561385f).lightLevel(s -> 0)
+		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 4.816449370561385f).lightLevel(s -> 0)
 				.requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 		setRegistryName("money_wood");

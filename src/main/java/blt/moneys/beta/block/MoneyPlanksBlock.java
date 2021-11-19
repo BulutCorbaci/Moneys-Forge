@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class MoneyPlanksBlock extends Block {
 	public MoneyPlanksBlock() {
-		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(6f, 7.224674055842077f).lightLevel(s -> 0)
+		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 7.224674055842077f).lightLevel(s -> 0)
 				.requiresCorrectToolForDrops());
 		setRegistryName("money_planks");
 	}

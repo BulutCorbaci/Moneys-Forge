@@ -36,7 +36,7 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_iron"));
 			}
 
 			@Override
@@ -69,7 +69,7 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "moneys:textures/models/armor/hardenedoil_layer_1.png";
+			return "moneys:textures/models/armor/oil__layer_1.png";
 		}
 	}
 
@@ -81,7 +81,7 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "moneys:textures/models/armor/hardenedoil_layer_1.png";
+			return "moneys:textures/models/armor/oil__layer_1.png";
 		}
 	}
 
@@ -93,7 +93,7 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "moneys:textures/models/armor/hardenedoil_layer_2.png";
+			return "moneys:textures/models/armor/oil__layer_2.png";
 		}
 	}
 
@@ -105,7 +105,7 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "moneys:textures/models/armor/hardenedoil_layer_1.png";
+			return "moneys:textures/models/armor/oil__layer_1.png";
 		}
 	}
 }

@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class MoneyFenceGateBlock extends FenceGateBlock {
 	public MoneyFenceGateBlock() {
-		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(6f, 9f).lightLevel(s -> 0));
+		super(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 9f).lightLevel(s -> 0));
 		setRegistryName("money_fence_gate");
 	}
 

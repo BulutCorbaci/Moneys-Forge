@@ -17,8 +17,8 @@ import java.util.Collections;
 
 public class MoneyStairsBlock extends StairBlock {
 	public MoneyStairsBlock() {
-		super(() -> new Block(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(9f, 6f).lightLevel(s -> 0).dynamicShape())
-				.defaultBlockState(), Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(9f, 6f).lightLevel(s -> 0).dynamicShape());
+		super(() -> new Block(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).lightLevel(s -> 0).dynamicShape())
+				.defaultBlockState(), Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).lightLevel(s -> 0).dynamicShape());
 		setRegistryName("money_stairs");
 	}
 

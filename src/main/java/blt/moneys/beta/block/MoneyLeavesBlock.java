@@ -19,8 +19,7 @@ import blt.moneys.beta.init.MoneysModItems;
 
 public class MoneyLeavesBlock extends LeavesBlock {
 	public MoneyLeavesBlock() {
-		super(Block.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.6000000000000001f, 0.6000000000000001f).lightLevel(s -> 0)
-				.noOcclusion());
+		super(Block.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.4f, 0.6000000000000001f).lightLevel(s -> 0).noOcclusion());
 		setRegistryName("money_leaves");
 	}
 

@@ -889,10 +889,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -910,6 +906,33 @@
           }
         ]
       }
+    },
+    {
+      "name": "ReturnerCraft",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "returner_craft"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leave_blocks"
     }
   ],
   "variable_elements": [

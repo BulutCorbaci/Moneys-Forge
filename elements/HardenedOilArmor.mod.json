@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:MoneysTab"
     },
-    "armorTextureFile": "hardenedoil",
+    "armorTextureFile": "oil_",
     "helmetName": "HardenedOil Helmet",
     "bodyName": "HardenedOil Chestplate",
     "leggingsName": "HardenedOil Leggings",
@@ -51,7 +51,7 @@
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_iron"
     },
     "repairItems": [
       {

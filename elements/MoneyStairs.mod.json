@@ -35,7 +35,7 @@
     ],
     "name": "Money Stairs",
     "specialInfo": [],
-    "hardness": 9.0,
+    "hardness": 4.5,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,

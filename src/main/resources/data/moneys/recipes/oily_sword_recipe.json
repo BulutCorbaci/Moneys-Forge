@@ -1,0 +1,24 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "moneys:oil_hard"
+    },
+    "1": {
+      "item": "moneys:oil_hard"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "moneys:oily_sword",
+    "count": 1
+  }
+}

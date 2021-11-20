@@ -17,8 +17,18 @@ import net.minecraft.world.item.BlockItem;
 import java.util.List;
 import java.util.ArrayList;
 
+import blt.moneys.beta.item.OilySwordItem;
+import blt.moneys.beta.item.OilyShovelItem;
+import blt.moneys.beta.item.OilyPickaxeItem;
+import blt.moneys.beta.item.OilyHoeItem;
+import blt.moneys.beta.item.OilyAxeItem;
 import blt.moneys.beta.item.OilItem;
 import blt.moneys.beta.item.OilHardItem;
+import blt.moneys.beta.item.MoneySwordItem;
+import blt.moneys.beta.item.MoneyShovelItem;
+import blt.moneys.beta.item.MoneyPickaxeItem;
+import blt.moneys.beta.item.MoneyHoeItem;
+import blt.moneys.beta.item.MoneyAxeItem;
 import blt.moneys.beta.item.MinecoinRipItem;
 import blt.moneys.beta.item.Minecoin5Item;
 import blt.moneys.beta.item.Minecoin50Item;
@@ -72,6 +82,16 @@ public class MoneysModItems {
 			new SpawnEggItem(MoneysModEntities.WANDERING_SELLER, -65536, -26368, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB))
 					.setRegistryName("wandering_seller_spawn_egg"));
 	public static final Item RETURNER = register(MoneysModBlocks.RETURNER, MoneysModTabs.TAB_MONEYS_TAB);
+	public static final Item OILY_PICKAXE = register(new OilyPickaxeItem());
+	public static final Item OILY_AXE = register(new OilyAxeItem());
+	public static final Item OILY_SWORD = register(new OilySwordItem());
+	public static final Item OILY_SHOVEL = register(new OilyShovelItem());
+	public static final Item OILY_HOE = register(new OilyHoeItem());
+	public static final Item MONEY_PICKAXE = register(new MoneyPickaxeItem());
+	public static final Item MONEY_AXE = register(new MoneyAxeItem());
+	public static final Item MONEY_SWORD = register(new MoneySwordItem());
+	public static final Item MONEY_SHOVEL = register(new MoneyShovelItem());
+	public static final Item MONEY_HOE = register(new MoneyHoeItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

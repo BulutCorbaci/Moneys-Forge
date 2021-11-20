@@ -1,0 +1,30 @@
+{
+  "group": "moneys",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "moneys:oil_hard"
+    },
+    "1": {
+      "item": "moneys:oil_hard"
+    },
+    "2": {
+      "item": "moneys:oil_hard"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "moneys:oily_pickaxe",
+    "count": 1
+  }
+}

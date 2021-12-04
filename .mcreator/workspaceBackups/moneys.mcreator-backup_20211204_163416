@@ -1113,6 +1113,58 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "money_hoe_recipe"
+    },
+    {
+      "name": "QuickestFixEffectActiveTickCondition",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_effect_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuickestFixEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuickestFixEffect",
+      "type": "potioneffect",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_effect"
+    },
+    {
+      "name": "QuickestFixItem",
+      "type": "potion",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_item"
     }
   ],
   "variable_elements": [
@@ -1167,6 +1219,7 @@
       "item.moneys.minecoin_1000": "Minecoin 1000",
       "item.moneys.wandering_seller_spawn_egg": "Wandering Seller Spawn Egg",
       "entity.moneys.wandering_seller": "Wandering Seller",
+      "item.minecraft.tipped_arrow.effect.quickest_fix_item": "Arrow of Quickest Fix Item",
       "item.moneys.minecoin_rip": "Ripped Minecoin",
       "block.moneys.money_wood": "Money Wood",
       "block.moneys.money_leaves": "Money Leaves",
@@ -1174,8 +1227,10 @@
       "item.moneys.hardened_oil_armor_leggings": "HardenedOil Leggings",
       "block.moneys.returner": "Returner",
       "item.moneys.money_shovel": "Money Wood Shovel",
+      "item.minecraft.lingering_potion.effect.quickest_fix_item": "Lingering Potion of Quickest Fix Item",
       "block.moneys.oil_ore": "Oil Ore",
       "block.moneys.money_planks": "Money Planks",
+      "effect.moneys.quickest_fix_effect": "Quickest Fix",
       "block.moneys.money_button": "Money Button",
       "item.moneys.minecoin_10": "Minecoin 10",
       "block.moneys.money_log": "Money Log",
@@ -1183,8 +1238,10 @@
       "item.moneys.money_hoe": "Money Wood Hoe",
       "itemGroup.tabmoneys_tab": "Moneys! Items",
       "item.moneys.minecoin_50": "Minecoin 50",
+      "item.minecraft.potion.effect.quickest_fix_item": "Potion of Quickest Fix ",
       "item.moneys.hardened_oil_armor_helmet": "HardenedOil Helmet",
       "item.moneys.hardened_oil_armor_chestplate": "HardenedOil Chestplate",
+      "item.minecraft.splash_potion.effect.quickest_fix_item": "Splash Potion of Quickest Fix Item",
       "item.moneys.oily_hoe": "Oily Hoe",
       "item.moneys.minecoin_20": "Minecoin 20",
       "item.moneys.money_sword": "Money Wood Sword",

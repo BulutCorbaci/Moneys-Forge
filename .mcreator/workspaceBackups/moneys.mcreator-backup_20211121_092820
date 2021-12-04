@@ -933,6 +933,238 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "leave_blocks"
+    },
+    {
+      "name": "OilyPickaxe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_pickaxe"
+    },
+    {
+      "name": "OilyAxe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_axe"
+    },
+    {
+      "name": "OilySword",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_sword"
+    },
+    {
+      "name": "OilyShovel",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_shovel"
+    },
+    {
+      "name": "OilyHoe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_hoe"
+    },
+    {
+      "name": "OilyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_pickaxe_recipe"
+    },
+    {
+      "name": "OilyAxeRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_axe_recipe"
+    },
+    {
+      "name": "OilySwordRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_sword_recipe"
+    },
+    {
+      "name": "OilyShovelRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_shovel_recipe"
+    },
+    {
+      "name": "OilyHoeRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oily_hoe_recipe"
+    },
+    {
+      "name": "MoneyPickaxe",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_pickaxe"
+    },
+    {
+      "name": "MoneyAxe",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_axe"
+    },
+    {
+      "name": "MoneySword",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_sword"
+    },
+    {
+      "name": "MoneyShovel",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_shovel"
+    },
+    {
+      "name": "MoneyHoe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_hoe"
+    },
+    {
+      "name": "MoneyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_pickaxe_recipe"
+    },
+    {
+      "name": "MoneyAxeRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_axe_recipe"
+    },
+    {
+      "name": "MoneySwordRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_sword_recipe"
+    },
+    {
+      "name": "MoneyShovelRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_shovel_recipe"
+    },
+    {
+      "name": "MoneyHoeRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "money_hoe_recipe"
+    },
+    {
+      "name": "QuickestFixEffectActiveTickCondition",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_effect_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuickestFixEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuickestFixEffect",
+      "type": "potioneffect",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_effect"
+    },
+    {
+      "name": "QuickestFixItem",
+      "type": "potion",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quickest_fix_item"
     }
   ],
   "variable_elements": [
@@ -971,43 +1203,58 @@
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
-      "block.moneys.money_stairs": "Money Stairs",
       "block.moneys.money_fence": "Money Fence",
-      "item.moneys.minecoin_10": "Minecoin 10",
+      "block.moneys.money_stairs": "Money Stairs",
+      "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",
-      "block.moneys.money_log": "Money Log",
       "item.moneys.minecoin_5": "Minecoin 5",
       "item.moneys.oil": "Oil",
       "item.moneys.minecoin_1": "Minecoin 1",
-      "item.moneys.minecoin_200": "Minecoin 200",
-      "item.moneys.minecoin_100": "Minecoin 100",
+      "item.moneys.oily_axe": "Oily Axe",
       "block.moneys.money_slab": "Money Slab",
-      "itemGroup.tabmoneys_tab": "Moneys! Items",
-      "item.moneys.minecoin_50": "Minecoin 50",
+      "item.moneys.minecoin_100": "Minecoin 100",
+      "item.moneys.money_pickaxe": "Money Wood Pickaxe",
       "item.moneys.hardened_oil_armor_boots": "HardenedOil Boots",
       "item.moneys.minecoin_1000": "Minecoin 1000",
       "item.moneys.wandering_seller_spawn_egg": "Wandering Seller Spawn Egg",
       "entity.moneys.wandering_seller": "Wandering Seller",
-      "item.moneys.hardened_oil_armor_helmet": "HardenedOil Helmet",
-      "item.moneys.hardened_oil_armor_chestplate": "HardenedOil Chestplate",
-      "item.moneys.minecoin_20": "Minecoin 20",
+      "item.minecraft.tipped_arrow.effect.quickest_fix_item": "Arrow of Quickest Fix Item",
       "item.moneys.minecoin_rip": "Ripped Minecoin",
       "block.moneys.money_wood": "Money Wood",
-      "block.moneys.money_fence_gate": "Money Fence Gate",
-      "item.moneys.oil_hard": "Hardened Oil",
       "block.moneys.money_leaves": "Money Leaves",
-      "block.moneys.money_pressure_plate": "Money Pressure Plate",
       "biome.moneys.money_biome": "Money Biome",
-      "item.moneys.black_oil": "Blackened Oil",
       "item.moneys.hardened_oil_armor_leggings": "HardenedOil Leggings",
-      "advancements.obtain_1_minecoin.descr": "Craft/Find your First Minecoin",
       "block.moneys.returner": "Returner",
-      "item.moneys.minecoin_2000": "Minecoin 2000",
+      "item.moneys.money_shovel": "Money Wood Shovel",
+      "item.minecraft.lingering_potion.effect.quickest_fix_item": "Lingering Potion of Quickest Fix Item",
       "block.moneys.oil_ore": "Oil Ore",
       "block.moneys.money_planks": "Money Planks",
-      "block.moneys.money_button": "Money Button"
+      "effect.moneys.quickest_fix_effect": "Quickest Fix",
+      "block.moneys.money_button": "Money Button",
+      "item.moneys.minecoin_10": "Minecoin 10",
+      "block.moneys.money_log": "Money Log",
+      "item.moneys.minecoin_200": "Minecoin 200",
+      "item.moneys.money_hoe": "Money Wood Hoe",
+      "itemGroup.tabmoneys_tab": "Moneys! Items",
+      "item.moneys.minecoin_50": "Minecoin 50",
+      "item.minecraft.potion.effect.quickest_fix_item": "Potion of Quickest Fix ",
+      "item.moneys.hardened_oil_armor_helmet": "HardenedOil Helmet",
+      "item.moneys.hardened_oil_armor_chestplate": "HardenedOil Chestplate",
+      "item.minecraft.splash_potion.effect.quickest_fix_item": "Splash Potion of Quickest Fix Item",
+      "item.moneys.oily_hoe": "Oily Hoe",
+      "item.moneys.minecoin_20": "Minecoin 20",
+      "item.moneys.money_sword": "Money Wood Sword",
+      "item.moneys.oily_pickaxe": "Oily Pickaxe",
+      "item.moneys.oily_shovel": "Oily Shovel",
+      "block.moneys.money_fence_gate": "Money Fence Gate",
+      "item.moneys.oil_hard": "Hardened Oil",
+      "block.moneys.money_pressure_plate": "Money Pressure Plate",
+      "item.moneys.black_oil": "Blackened Oil",
+      "advancements.obtain_1_minecoin.descr": "Craft/Find your First Minecoin",
+      "item.moneys.oily_sword": "Oily Sword",
+      "item.moneys.minecoin_2000": "Minecoin 2000",
+      "item.moneys.money_axe": "Money Wood Axe"
     }
   },
   "foldersRoot": {

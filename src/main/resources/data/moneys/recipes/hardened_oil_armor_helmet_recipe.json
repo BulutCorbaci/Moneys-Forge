@@ -2,23 +2,11 @@
   "group": "moneys",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5"
+    "###",
+    "# #"
   ],
   "key": {
-    "0": {
-      "item": "moneys:oil_hard"
-    },
-    "1": {
-      "item": "moneys:oil_hard"
-    },
-    "2": {
-      "item": "moneys:oil_hard"
-    },
-    "3": {
-      "item": "moneys:oil_hard"
-    },
-    "5": {
+    "#": {
       "item": "moneys:oil_hard"
     }
   },

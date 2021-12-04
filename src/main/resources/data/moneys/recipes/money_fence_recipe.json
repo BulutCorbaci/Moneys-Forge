@@ -2,27 +2,15 @@
   "group": "moneys",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345"
+    "MSM",
+    "MSM"
   ],
   "key": {
-    "0": {
+    "M": {
       "item": "moneys:money_planks"
     },
-    "1": {
+    "S": {
       "item": "minecraft:stick"
-    },
-    "2": {
-      "item": "moneys:money_planks"
-    },
-    "3": {
-      "item": "moneys:money_planks"
-    },
-    "4": {
-      "item": "minecraft:stick"
-    },
-    "5": {
-      "item": "moneys:money_planks"
     }
   },
   "result": {

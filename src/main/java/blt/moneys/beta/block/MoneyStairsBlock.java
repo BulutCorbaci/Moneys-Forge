@@ -4,6 +4,7 @@ package blt.moneys.beta.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
@@ -17,8 +18,8 @@ import java.util.Collections;
 
 public class MoneyStairsBlock extends StairBlock {
 	public MoneyStairsBlock() {
-		super(() -> new Block(Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).lightLevel(s -> 0).dynamicShape())
-				.defaultBlockState(), Block.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).lightLevel(s -> 0).dynamicShape());
+		super(() -> new Block(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).dynamicShape())
+				.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).dynamicShape());
 		setRegistryName("money_stairs");
 	}
 

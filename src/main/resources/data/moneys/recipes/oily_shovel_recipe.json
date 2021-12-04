@@ -2,18 +2,15 @@
   "group": "moneys",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "O",
+    "S",
+    "S"
   ],
   "key": {
-    "0": {
+    "O": {
       "item": "moneys:oil_hard"
     },
-    "1": {
-      "item": "minecraft:stick"
-    },
-    "2": {
+    "S": {
       "item": "minecraft:stick"
     }
   },

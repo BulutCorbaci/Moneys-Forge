@@ -4,9 +4,9 @@ package blt.moneys.beta.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LeavesBlock;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
@@ -19,7 +19,7 @@ import blt.moneys.beta.init.MoneysModItems;
 
 public class MoneyLeavesBlock extends LeavesBlock {
 	public MoneyLeavesBlock() {
-		super(Block.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.4f, 0.6000000000000001f).lightLevel(s -> 0).noOcclusion());
+		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.4f, 0.6000000000000001f).noOcclusion());
 		setRegistryName("money_leaves");
 	}
 

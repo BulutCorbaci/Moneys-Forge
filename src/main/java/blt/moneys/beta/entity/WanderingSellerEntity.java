@@ -45,15 +45,20 @@ import net.minecraft.nbt.CompoundTag;
 
 import javax.annotation.Nullable;
 
+import java.util.Set;
+
 import blt.moneys.beta.procedures.WanderingSellerRightClickedOnEntityProcedure;
 import blt.moneys.beta.procedures.WanderingSellerOnInitialEntitySpawnProcedure;
 import blt.moneys.beta.init.MoneysModEntities;
 
 @Mod.EventBusSubscriber
 public class WanderingSellerEntity extends PathfinderMob {
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("moneys:money_biome"));
+
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(MoneysModEntities.WANDERING_SELLER, 1, 1, 1));
+		if (SPAWN_BIOMES.contains(event.getName()))
+			event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(MoneysModEntities.WANDERING_SELLER, 1, 1, 1));
 	}
 
 	public WanderingSellerEntity(FMLPlayMessages.SpawnEntity packet, Level world) {

@@ -2,16 +2,10 @@
   "group": "moneys",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012"
+    "###"
   ],
   "key": {
-    "0": {
-      "item": "moneys:money_planks"
-    },
-    "1": {
-      "item": "moneys:money_planks"
-    },
-    "2": {
+    "#": {
       "item": "moneys:money_planks"
     }
   },

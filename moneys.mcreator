@@ -1203,17 +1203,17 @@
   "language_map": {
     "en_us": {
       "item.moneys.minecoin_500": "Minecoin 500",
-      "block.moneys.money_fence": "Money Fence",
-      "block.moneys.money_stairs": "Money Stairs",
       "advancements.obtain_1_minecoin.title": "Obtain 1 Minecoin",
+      "block.moneys.money_stairs": "Money Stairs",
+      "block.moneys.money_fence": "Money Fence",
       "block.moneys.reburner": "Reburner",
       "item.moneys.minecoin_5000": "Minecoin 5000",
       "item.moneys.minecoin_5": "Minecoin 5",
       "item.moneys.oil": "Oil",
       "item.moneys.minecoin_1": "Minecoin 1",
       "item.moneys.oily_axe": "Oily Axe",
-      "block.moneys.money_slab": "Money Slab",
       "item.moneys.minecoin_100": "Minecoin 100",
+      "block.moneys.money_slab": "Money Slab",
       "item.moneys.money_pickaxe": "Money Wood Pickaxe",
       "item.moneys.hardened_oil_armor_boots": "HardenedOil Boots",
       "item.moneys.minecoin_1000": "Minecoin 1000",
@@ -1282,5 +1282,5 @@
     "modElementsPackage": "blt.moneys.beta",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100347317
+  "mcreatorVersion": 202100349312
 }

@@ -25,6 +25,7 @@ import java.util.HashMap;
 import blt.moneys.beta.init.MoneysModMenus;
 
 public class ReturnerGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
 	public int x, y, z;

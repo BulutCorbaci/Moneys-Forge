@@ -1,23 +1,37 @@
 {
-  "group": "moneys",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CSC",
-    "SRD",
-    "CSC"
+    "012",
+    "345",
+    "678"
   ],
   "key": {
-    "C": {
+    "0": {
       "item": "minecraft:cobblestone"
     },
-    "S": {
+    "1": {
       "item": "minecraft:smooth_stone"
     },
-    "R": {
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone"
+    },
+    "4": {
       "item": "minecraft:repeater"
     },
-    "D": {
+    "5": {
       "item": "minecraft:dropper"
+    },
+    "6": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "minecraft:smooth_stone"
+    },
+    "8": {
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {

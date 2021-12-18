@@ -1,20 +1,37 @@
 {
-  "group": "moneys",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BOB",
-    "OIO",
-    "BOB"
+    "012",
+    "345",
+    "678"
   ],
   "key": {
-    "B": {
+    "0": {
       "item": "minecraft:black_dye"
     },
-    "O": {
+    "1": {
       "item": "moneys:oil_hard"
     },
-    "I": {
+    "2": {
+      "item": "minecraft:black_dye"
+    },
+    "3": {
+      "item": "moneys:oil_hard"
+    },
+    "4": {
       "item": "moneys:oil"
+    },
+    "5": {
+      "item": "moneys:oil_hard"
+    },
+    "6": {
+      "item": "minecraft:black_dye"
+    },
+    "7": {
+      "item": "moneys:oil_hard"
+    },
+    "8": {
+      "item": "minecraft:black_dye"
     }
   },
   "result": {

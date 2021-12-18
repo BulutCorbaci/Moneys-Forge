@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 import java.util.function.Supplier;
 import java.util.HashMap;
 
+import blt.moneys.beta.world.inventory.ReturnerGUIMenu;
 import blt.moneys.beta.procedures.ReturnerGUIButtonClickProcedure;
-import blt.moneys.beta.client.gui.ReturnerGUIScreen;
 import blt.moneys.beta.MoneysMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -58,7 +58,7 @@ public class ReturnerGUIButtonMessage {
 
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level;
-		HashMap guistate = ReturnerGUIScreen.guistate;
+		HashMap guistate = ReturnerGUIMenu.guistate;
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;

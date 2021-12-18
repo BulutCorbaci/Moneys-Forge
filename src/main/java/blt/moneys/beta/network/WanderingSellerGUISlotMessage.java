@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 import java.util.function.Supplier;
 import java.util.HashMap;
 
+import blt.moneys.beta.world.inventory.WanderingSellerGUIMenu;
 import blt.moneys.beta.procedures.RemoveMoneyProcedure;
-import blt.moneys.beta.client.gui.WanderingSellerGUIScreen;
 import blt.moneys.beta.MoneysMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -66,7 +66,7 @@ public class WanderingSellerGUISlotMessage {
 
 	public static void handleSlotAction(Player entity, int slotID, int changeType, int meta, int x, int y, int z) {
 		Level world = entity.level;
-		HashMap guistate = WanderingSellerGUIScreen.guistate;
+		HashMap guistate = WanderingSellerGUIMenu.guistate;
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;

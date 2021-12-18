@@ -21,7 +21,9 @@
       "conditions": {
         "items": [
           {
-            "item": "moneys:minecoin_1",
+            "items": [
+              "moneys:minecoin_1"
+            ],
             "count": {
               "min": 1,
               "max": 64

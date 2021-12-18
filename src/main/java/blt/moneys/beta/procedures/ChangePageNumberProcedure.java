@@ -30,14 +30,14 @@ public class ChangePageNumberProcedure {
 			return;
 		if (entity.getPersistentData().getDouble("playerTradePage") == 1) {
 			{
-				String _setval = (String) "10 Minecoins";
+				String _setval = "10 Minecoins";
 				entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.pagenumberminecoin = _setval;
 					capability.syncPlayerVariables(entity);
 				});
 			}
 			{
-				double _setval = (double) 1;
+				double _setval = 1;
 				entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.PageNumberTrade = _setval;
 					capability.syncPlayerVariables(entity);
@@ -45,14 +45,14 @@ public class ChangePageNumberProcedure {
 			}
 		} else if (entity.getPersistentData().getDouble("playerTradePage") == 2) {
 			{
-				String _setval = (String) "20 Minecoins";
+				String _setval = "20 Minecoins";
 				entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.pagenumberminecoin = _setval;
 					capability.syncPlayerVariables(entity);
 				});
 			}
 			{
-				double _setval = (double) 2;
+				double _setval = 2;
 				entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.PageNumberTrade = _setval;
 					capability.syncPlayerVariables(entity);
@@ -60,14 +60,14 @@ public class ChangePageNumberProcedure {
 			}
 		} else if (entity.getPersistentData().getDouble("playerTradePage") == 3) {
 			{
-				String _setval = (String) "50 Minecoins";
+				String _setval = "50 Minecoins";
 				entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.pagenumberminecoin = _setval;
 					capability.syncPlayerVariables(entity);
 				});
 			}
 			{
-				double _setval = (double) 3;
+				double _setval = 3;
 				entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.PageNumberTrade = _setval;
 					capability.syncPlayerVariables(entity);

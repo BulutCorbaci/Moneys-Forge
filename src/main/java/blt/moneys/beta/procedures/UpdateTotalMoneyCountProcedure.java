@@ -35,7 +35,7 @@ public class UpdateTotalMoneyCountProcedure {
 			return;
 		double loopinventory = 0;
 		{
-			double _setval = (double) 0;
+			double _setval = 0;
 			entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.totalmoneyonplayer = _setval;
 				capability.syncPlayerVariables(entity);
@@ -52,7 +52,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -61,7 +61,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount());
+							}.getItemStack((int) loopinventory, entity))).getCount();
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -77,7 +77,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -86,7 +86,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 5);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 5;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -102,7 +102,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -111,7 +111,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 10);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 10;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -127,7 +127,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -136,7 +136,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 20);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 20;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -152,7 +152,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -161,7 +161,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 50);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 50;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -177,7 +177,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -186,7 +186,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 100);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 100;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -202,7 +202,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -211,7 +211,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 200);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 200;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -227,7 +227,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -236,7 +236,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 500);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 500;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -252,7 +252,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -261,7 +261,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 1000);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 1000;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -277,7 +277,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -286,7 +286,7 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 2000);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 2000;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
@@ -302,7 +302,7 @@ public class UpdateTotalMoneyCountProcedure {
 				}
 			}.getItemStack((int) loopinventory, entity)).getItem()) {
 				{
-					double _setval = (double) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					double _setval = (entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MoneysModVariables.PlayerVariables())).totalmoneyonplayer + ((new Object() {
 								public ItemStack getItemStack(int sltid, Entity entity) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -311,14 +311,14 @@ public class UpdateTotalMoneyCountProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) loopinventory, entity))).getCount() * 5000);
+							}.getItemStack((int) loopinventory, entity))).getCount() * 5000;
 					entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.totalmoneyonplayer = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 			}
-			loopinventory = (double) (loopinventory + 1);
+			loopinventory = loopinventory + 1;
 		}
 	}
 }

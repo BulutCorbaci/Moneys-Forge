@@ -27,6 +27,7 @@ import blt.moneys.beta.init.MoneysModMenus;
 import blt.moneys.beta.MoneysMod;
 
 public class WanderingSellerGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
 	public int x, y, z;

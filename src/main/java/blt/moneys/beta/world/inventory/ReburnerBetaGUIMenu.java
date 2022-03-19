@@ -94,25 +94,25 @@ public class ReburnerBetaGUIMenu extends AbstractContainerMenu implements Suppli
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 26) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (MoneysModItems.MINECOIN_RIP == stack.getItem());
+				return (MoneysModItems.MINECOIN_RIP.get() == stack.getItem());
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 53) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (MoneysModItems.MINECOIN_RIP == stack.getItem());
+				return (MoneysModItems.MINECOIN_RIP.get() == stack.getItem());
 			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 70, 26) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (MoneysModItems.MINECOIN_RIP == stack.getItem());
+				return (MoneysModItems.MINECOIN_RIP.get() == stack.getItem());
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 70, 53) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (MoneysModItems.MINECOIN_RIP == stack.getItem());
+				return (MoneysModItems.MINECOIN_RIP.get() == stack.getItem());
 			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 142, 26) {

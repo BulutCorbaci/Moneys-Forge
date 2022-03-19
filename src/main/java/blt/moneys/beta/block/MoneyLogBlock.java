@@ -28,7 +28,6 @@ public class MoneyLogBlock extends Block {
 	public MoneyLogBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 4.816449370561385f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
-		setRegistryName("money_log");
 	}
 
 	@Override

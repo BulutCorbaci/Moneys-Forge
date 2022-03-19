@@ -89,17 +89,17 @@ public class WanderingSellerGUIScreen extends AbstractContainerScreen<WanderingS
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Input", 15, 43, -6710887);
-		drawString(poseStack, this.font, "Output", 132, 43, -6710887);
-		drawString(poseStack, this.font, "", 6, 7, -12829636);
-		drawString(poseStack, this.font, "" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.draw(poseStack, "Input", 15, 43, -6710887);
+		this.font.draw(poseStack, "Output", 132, 43, -6710887);
+		this.font.draw(poseStack, "", 6, 7, -12829636);
+		this.font.draw(poseStack, "" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new MoneysModVariables.PlayerVariables())).PageNumberTrade) + "", 87, 52, -6710887);
-		drawString(poseStack, this.font, "" + ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.draw(poseStack, "" + ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new MoneysModVariables.PlayerVariables())).pagenumberminecoin) + "", 6, 7, -6710887);
-		drawString(poseStack, this.font, "For", 6, 16, -6710887);
-		drawString(poseStack, this.font, "" + ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.draw(poseStack, "For", 6, 16, -6710887);
+		this.font.draw(poseStack, "" + ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new MoneysModVariables.PlayerVariables())).tradeitemname) + "", 24, 25, -6710887);
-		drawString(poseStack, this.font, "" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+		this.font.draw(poseStack, "" + (int) ((entity.getCapability(MoneysModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new MoneysModVariables.PlayerVariables())).tradeitemcount) + "", 6, 25, -6710887);
 	}
 

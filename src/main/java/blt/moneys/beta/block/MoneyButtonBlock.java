@@ -18,7 +18,6 @@ import java.util.Collections;
 public class MoneyButtonBlock extends WoodButtonBlock {
 	public MoneyButtonBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 9f));
-		setRegistryName("money_button");
 	}
 
 	@Override

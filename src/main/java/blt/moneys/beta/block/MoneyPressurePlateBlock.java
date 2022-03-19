@@ -18,7 +18,6 @@ import java.util.Collections;
 public class MoneyPressurePlateBlock extends PressurePlateBlock {
 	public MoneyPressurePlateBlock() {
 		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.5f, 9f));
-		setRegistryName("money_pressure_plate");
 	}
 
 	@Override

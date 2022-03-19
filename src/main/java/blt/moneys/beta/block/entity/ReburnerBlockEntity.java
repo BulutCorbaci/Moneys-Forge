@@ -37,7 +37,7 @@ public class ReburnerBlockEntity extends RandomizableContainerBlockEntity implem
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public ReburnerBlockEntity(BlockPos position, BlockState state) {
-		super(MoneysModBlockEntities.REBURNER, position, state);
+		super(MoneysModBlockEntities.REBURNER.get(), position, state);
 	}
 
 	@Override
@@ -49,22 +49,21 @@ public class ReburnerBlockEntity extends RandomizableContainerBlockEntity implem
 	}
 
 	@Override
-	public CompoundTag save(CompoundTag compound) {
-		super.save(compound);
+	public void saveAdditional(CompoundTag compound) {
+		super.saveAdditional(compound);
 		if (!this.trySaveLootTable(compound)) {
 			ContainerHelper.saveAllItems(compound, this.stacks);
 		}
-		return compound;
 	}
 
 	@Override
 	public ClientboundBlockEntityDataPacket getUpdatePacket() {
-		return new ClientboundBlockEntityDataPacket(this.worldPosition, 0, this.getUpdateTag());
+		return ClientboundBlockEntityDataPacket.create(this);
 	}
 
 	@Override
 	public CompoundTag getUpdateTag() {
-		return this.save(new CompoundTag());
+		return this.saveWithFullMetadata();
 	}
 
 	@Override

@@ -20,7 +20,6 @@ import java.util.Collections;
 public class MoneyPlanksBlock extends Block {
 	public MoneyPlanksBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 7.224674055842077f).requiresCorrectToolForDrops());
-		setRegistryName("money_planks");
 	}
 
 	@Override

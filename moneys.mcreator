@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Reburner",
@@ -7,7 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "reburner"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_1"
     },
     {
@@ -25,7 +22,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_5"
     },
     {
@@ -34,7 +30,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_10"
     },
     {
@@ -43,7 +38,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_20"
     },
     {
@@ -52,7 +46,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_50"
     },
     {
@@ -61,7 +54,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_100"
     },
     {
@@ -70,7 +62,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_200"
     },
     {
@@ -79,7 +70,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_500"
     },
     {
@@ -88,7 +78,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_1000"
     },
     {
@@ -97,7 +86,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_2000"
     },
     {
@@ -106,7 +94,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_5000"
     },
     {
@@ -115,7 +102,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "minecoin_rip"
     },
     {
@@ -124,7 +110,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "reburner_beta_gui"
     },
     {
@@ -133,7 +118,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "reburner_update_tick",
       "metadata": {
         "dependencies": [
@@ -162,7 +146,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "exp_sound",
       "metadata": {
         "dependencies": [
@@ -191,7 +174,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "reburner_on_block_right_clicked",
       "metadata": {
         "dependencies": [
@@ -224,7 +206,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_1_craft"
     },
     {
@@ -233,7 +214,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_5_craft"
     },
     {
@@ -242,7 +222,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_10_craft"
     },
     {
@@ -251,7 +230,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_20_craft"
     },
     {
@@ -260,7 +238,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_50_craft"
     },
     {
@@ -269,7 +246,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_100_craft"
     },
     {
@@ -278,7 +254,6 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_200_craft"
     },
     {
@@ -287,7 +262,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_500_craft"
     },
     {
@@ -296,7 +270,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_1000_craft"
     },
     {
@@ -305,7 +278,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_2000_craft"
     },
     {
@@ -314,7 +286,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mc_5000_craft"
     },
     {
@@ -323,7 +294,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "reburner_craft"
     },
     {
@@ -332,7 +302,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "raided_building"
     },
     {
@@ -341,7 +310,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "raided_building_loot_table"
     },
     {
@@ -350,7 +318,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oil_ore"
     },
     {
@@ -359,7 +326,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oil"
     },
     {
@@ -368,7 +334,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oil_hard"
     },
     {
@@ -377,7 +342,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_oil"
     },
     {
@@ -386,7 +350,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oil_hard_recipe"
     },
     {
@@ -395,7 +358,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_oil_recipe"
     },
     {
@@ -404,7 +366,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "obtain_1_minecoin"
     },
     {
@@ -413,7 +374,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_wood"
     },
     {
@@ -422,7 +382,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_log"
     },
     {
@@ -431,7 +390,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_planks"
     },
     {
@@ -440,7 +398,6 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_leaves"
     },
     {
@@ -449,7 +406,6 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_stairs"
     },
     {
@@ -458,7 +414,6 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_slab"
     },
     {
@@ -467,7 +422,6 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_fence"
     },
     {
@@ -476,7 +430,6 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_fence_gate"
     },
     {
@@ -485,7 +438,6 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_pressure_plate"
     },
     {
@@ -494,7 +446,6 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_button"
     },
     {
@@ -503,7 +454,6 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_items_tag"
     },
     {
@@ -512,7 +462,6 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_wood_recipe"
     },
     {
@@ -521,7 +470,6 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_planks_recipe"
     },
     {
@@ -530,7 +478,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_stairs_recipe"
     },
     {
@@ -539,7 +486,6 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_slab_recipe"
     },
     {
@@ -548,7 +494,6 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_fence_recipe"
     },
     {
@@ -557,7 +502,6 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_fence_gate_recipe"
     },
     {
@@ -566,7 +510,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_pressure_plate_recipe"
     },
     {
@@ -575,7 +518,6 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_button_recipe"
     },
     {
@@ -584,7 +526,6 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_stick_recipe"
     },
     {
@@ -593,7 +534,6 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_biome"
     },
     {
@@ -602,7 +542,6 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "moneys_tab"
     },
     {
@@ -611,7 +550,6 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hardened_oil_armor",
       "metadata": {
         "eh": true,
@@ -626,7 +564,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hardened_oil_armor_helmet_recipe"
     },
     {
@@ -635,7 +572,6 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hardened_oil_armor_body_recipe"
     },
     {
@@ -644,7 +580,6 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hardened_oil_armor_leggings_recipe"
     },
     {
@@ -653,7 +588,6 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "hardened_oil_armor_boots_recipe"
     },
     {
@@ -662,7 +596,6 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wandering_seller"
     },
     {
@@ -671,7 +604,6 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wandering_seller_on_initial_entity_spawn",
       "metadata": {
         "dependencies": [
@@ -692,7 +624,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wandering_seller_gui"
     },
     {
@@ -701,7 +632,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "wandering_seller_right_clicked_on_entity",
       "metadata": {
         "dependencies": [
@@ -738,7 +668,6 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "remove_money_and_add_items",
       "metadata": {
         "dependencies": [
@@ -755,7 +684,6 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "change_page_number",
       "metadata": {
         "dependencies": [
@@ -772,7 +700,6 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "change_page",
       "metadata": {
         "dependencies": [
@@ -789,7 +716,6 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "remove_money",
       "metadata": {
         "dependencies": [
@@ -806,7 +732,6 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "change_page_back",
       "metadata": {
         "dependencies": [
@@ -823,7 +748,6 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "change_item_name_on_wandering_seller_gui",
       "metadata": {
         "dependencies": [
@@ -840,7 +764,6 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "total_money_amount"
     },
     {
@@ -849,7 +772,6 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "update_total_money_count",
       "metadata": {
         "dependencies": [
@@ -866,7 +788,6 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "returner_gui"
     },
     {
@@ -875,7 +796,6 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "returner"
     },
     {
@@ -884,7 +804,6 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "returner_gui_button_click",
       "metadata": {
         "dependencies": [
@@ -913,7 +832,6 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "returner_craft"
     },
     {
@@ -922,7 +840,6 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "log_blocks"
     },
     {
@@ -931,7 +848,6 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "leave_blocks"
     },
     {
@@ -940,7 +856,6 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_pickaxe"
     },
     {
@@ -949,7 +864,6 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_axe"
     },
     {
@@ -958,7 +872,6 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_sword"
     },
     {
@@ -967,7 +880,6 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_shovel"
     },
     {
@@ -976,7 +888,6 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_hoe"
     },
     {
@@ -985,7 +896,6 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_pickaxe_recipe"
     },
     {
@@ -994,7 +904,6 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_axe_recipe"
     },
     {
@@ -1003,7 +912,6 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_sword_recipe"
     },
     {
@@ -1012,7 +920,6 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_shovel_recipe"
     },
     {
@@ -1021,7 +928,6 @@
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "oily_hoe_recipe"
     },
     {
@@ -1030,7 +936,6 @@
       "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_pickaxe"
     },
     {
@@ -1039,7 +944,6 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_axe"
     },
     {
@@ -1048,7 +952,6 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_sword"
     },
     {
@@ -1057,7 +960,6 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_shovel"
     },
     {
@@ -1066,7 +968,6 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_hoe"
     },
     {
@@ -1075,7 +976,6 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_pickaxe_recipe"
     },
     {
@@ -1084,7 +984,6 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_axe_recipe"
     },
     {
@@ -1093,7 +992,6 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_sword_recipe"
     },
     {
@@ -1102,7 +1000,6 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_shovel_recipe"
     },
     {
@@ -1111,7 +1008,6 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "money_hoe_recipe"
     },
     {
@@ -1120,7 +1016,6 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "quickest_fix_effect_active_tick_condition",
       "metadata": {
         "dependencies": [
@@ -1137,7 +1032,6 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "quickest_fix_effect_effect_startedapplied",
       "metadata": {
         "dependencies": [
@@ -1154,7 +1048,6 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "quickest_fix_effect"
     },
     {
@@ -1163,7 +1056,6 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "quickest_fix_item"
     }
   ],
@@ -1332,10 +1224,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Nah Fam This Is On Dev.",
     "modElementsPackage": "blt.moneys.beta",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100351219
+  "mcreatorVersion": 202200112711
 }

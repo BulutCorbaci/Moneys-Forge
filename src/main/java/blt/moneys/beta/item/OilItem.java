@@ -10,7 +10,6 @@ import blt.moneys.beta.init.MoneysModTabs;
 public class OilItem extends Item {
 	public OilItem() {
 		super(new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB).stacksTo(64).rarity(Rarity.COMMON));
-		setRegistryName("oil");
 	}
 
 	@Override

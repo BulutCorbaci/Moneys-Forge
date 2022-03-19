@@ -34,9 +34,8 @@ public class OilyAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MoneysModItems.OIL_HARD));
+				return Ingredient.of(new ItemStack(MoneysModItems.OIL_HARD.get()));
 			}
 		}, 1, -3f, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB));
-		setRegistryName("oily_axe");
 	}
 }

@@ -18,7 +18,6 @@ import java.util.Collections;
 public class MoneyFenceGateBlock extends FenceGateBlock {
 	public MoneyFenceGateBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 9f));
-		setRegistryName("money_fence_gate");
 	}
 
 	@Override

@@ -24,8 +24,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			Entity entity = event.player;
-			execute(event, entity);
+			execute(event, event.player);
 		}
 	}
 
@@ -39,11 +38,11 @@ public class RemoveMoneyAndAddItemsProcedure {
 		if (entity.getPersistentData().getDouble("playerTradePage") == 1) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 					? ((Slot) _slt.get(0)).getItem()
-					: ItemStack.EMPTY).getItem() == MoneysModItems.MINECOIN_10) {
+					: ItemStack.EMPTY).getItem() == MoneysModItems.MINECOIN_10.get()) {
 				if (entity.getPersistentData().getDouble("playerTradeItem1") == 1) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModBlocks.REBURNER);
+						ItemStack _setstack = new ItemStack(MoneysModBlocks.REBURNER.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount1"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -51,7 +50,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem1") == 2) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.OIL);
+						ItemStack _setstack = new ItemStack(MoneysModItems.OIL.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount1"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -59,7 +58,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem1") == 3) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_BOOTS);
+						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_BOOTS.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount1"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -99,11 +98,11 @@ public class RemoveMoneyAndAddItemsProcedure {
 		} else if (entity.getPersistentData().getDouble("playerTradePage") == 2) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 					? ((Slot) _slt.get(0)).getItem()
-					: ItemStack.EMPTY).getItem() == MoneysModItems.MINECOIN_20) {
+					: ItemStack.EMPTY).getItem() == MoneysModItems.MINECOIN_20.get()) {
 				if (entity.getPersistentData().getDouble("playerTradeItem2") == 1) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.MINECOIN_RIP);
+						ItemStack _setstack = new ItemStack(MoneysModItems.MINECOIN_RIP.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount2"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -111,7 +110,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem2") == 2) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.OIL_HARD);
+						ItemStack _setstack = new ItemStack(MoneysModItems.OIL_HARD.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount2"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -119,7 +118,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem2") == 3) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_HELMET);
+						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_HELMET.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount2"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -135,7 +134,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem2") == 5) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModBlocks.REBURNER);
+						ItemStack _setstack = new ItemStack(MoneysModBlocks.REBURNER.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount2"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -159,11 +158,11 @@ public class RemoveMoneyAndAddItemsProcedure {
 		} else if (entity.getPersistentData().getDouble("playerTradePage") == 3) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 					? ((Slot) _slt.get(0)).getItem()
-					: ItemStack.EMPTY).getItem() == MoneysModItems.MINECOIN_50) {
+					: ItemStack.EMPTY).getItem() == MoneysModItems.MINECOIN_50.get()) {
 				if (entity.getPersistentData().getDouble("playerTradeItem3") == 1) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModBlocks.MONEY_LOG);
+						ItemStack _setstack = new ItemStack(MoneysModBlocks.MONEY_LOG.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount3"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -171,7 +170,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem3") == 2) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.BLACK_OIL);
+						ItemStack _setstack = new ItemStack(MoneysModItems.BLACK_OIL.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount3"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -179,7 +178,7 @@ public class RemoveMoneyAndAddItemsProcedure {
 				} else if (entity.getPersistentData().getDouble("playerTradeItem3") == 3) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get()instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_CHESTPLATE);
+						ItemStack _setstack = new ItemStack(MoneysModItems.HARDENED_OIL_ARMOR_CHESTPLATE.get());
 						_setstack.setCount((int) entity.getPersistentData().getDouble("playerTradeCount3"));
 						((Slot) _slots.get(1)).set(_setstack);
 						_player.containerMenu.broadcastChanges();

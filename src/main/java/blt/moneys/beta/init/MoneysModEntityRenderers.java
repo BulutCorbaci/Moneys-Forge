@@ -15,6 +15,6 @@ import blt.moneys.beta.client.renderer.WanderingSellerRenderer;
 public class MoneysModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(MoneysModEntities.WANDERING_SELLER, WanderingSellerRenderer::new);
+		event.registerEntityRenderer(MoneysModEntities.WANDERING_SELLER.get(), WanderingSellerRenderer::new);
 	}
 }

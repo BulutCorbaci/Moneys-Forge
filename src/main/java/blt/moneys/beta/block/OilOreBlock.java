@@ -19,7 +19,6 @@ import blt.moneys.beta.init.MoneysModItems;
 public class OilOreBlock extends Block {
 	public OilOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
-		setRegistryName("oil_ore");
 	}
 
 	@Override
@@ -32,6 +31,6 @@ public class OilOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MoneysModItems.OIL, (int) (3)));
+		return Collections.singletonList(new ItemStack(MoneysModItems.OIL.get(), (int) (3)));
 	}
 }

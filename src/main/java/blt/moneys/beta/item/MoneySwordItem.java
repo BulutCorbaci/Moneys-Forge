@@ -34,9 +34,8 @@ public class MoneySwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MoneysModBlocks.MONEY_PLANKS));
+				return Ingredient.of(new ItemStack(MoneysModBlocks.MONEY_PLANKS.get()));
 			}
 		}, 3, -3f, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB));
-		setRegistryName("money_sword");
 	}
 }

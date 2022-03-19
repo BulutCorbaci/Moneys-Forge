@@ -102,9 +102,9 @@ public class ReburnerBetaGUIScreen extends AbstractContainerScreen<ReburnerBetaG
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Fuel", 15, 16, -12829636);
-		drawString(poseStack, this.font, "Minecoins", 42, 16, -12829636);
-		drawString(poseStack, this.font, "Output", 132, 16, -12829636);
+		this.font.draw(poseStack, "Fuel", 15, 16, -12829636);
+		this.font.draw(poseStack, "Minecoins", 42, 16, -12829636);
+		this.font.draw(poseStack, "Output", 132, 16, -12829636);
 	}
 
 	@Override

@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[37,)"
+loaderVersion="[40,)"
 license="MIT License"
 
 [[mods]]
@@ -18,7 +18,7 @@ A Mod That Adds Money to The Game!
 [[dependencies.moneys]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1]"
+    versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
 

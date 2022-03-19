@@ -4,37 +4,32 @@
  */
 package blt.moneys.beta.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
-import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import java.util.List;
-import java.util.ArrayList;
-
 import blt.moneys.beta.entity.WanderingSellerEntity;
+import blt.moneys.beta.MoneysMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneysModEntities {
-	private static final List<EntityType<?>> REGISTRY = new ArrayList<>();
-	public static final EntityType<WanderingSellerEntity> WANDERING_SELLER = register("wandering_seller",
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, MoneysMod.MODID);
+	public static final RegistryObject<EntityType<WanderingSellerEntity>> WANDERING_SELLER = register("wandering_seller",
 			EntityType.Builder.<WanderingSellerEntity>of(WanderingSellerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WanderingSellerEntity::new).sized(0.6f, 1.95f));
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WanderingSellerEntity::new)
 
-	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
-		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
-		REGISTRY.add(entityType);
-		return entityType;
-	}
+					.sized(0.6f, 1.95f));
 
-	@SubscribeEvent
-	public static void registerEntities(RegistryEvent.Register<EntityType<?>> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new EntityType[0]));
+	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
+		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}
 
 	@SubscribeEvent
@@ -46,6 +41,6 @@ public class MoneysModEntities {
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(WANDERING_SELLER, WanderingSellerEntity.createAttributes().build());
+		event.put(WANDERING_SELLER.get(), WanderingSellerEntity.createAttributes().build());
 	}
 }

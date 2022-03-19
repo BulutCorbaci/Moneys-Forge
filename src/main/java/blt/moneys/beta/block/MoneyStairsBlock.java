@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
@@ -18,9 +18,18 @@ import java.util.Collections;
 
 public class MoneyStairsBlock extends StairBlock {
 	public MoneyStairsBlock() {
-		super(() -> new Block(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).dynamicShape())
-				.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).dynamicShape());
-		setRegistryName("money_stairs");
+		super(() -> Blocks.AIR.defaultBlockState(),
+				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(4.5f, 6f).dynamicShape());
+	}
+
+	@Override
+	public float getExplosionResistance() {
+		return 6f;
+	}
+
+	@Override
+	public boolean isRandomlyTicking(BlockState p_56947_) {
+		return false;
 	}
 
 	@Override

@@ -19,7 +19,6 @@ import java.util.Collections;
 public class MoneySlabBlock extends SlabBlock {
 	public MoneySlabBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 9f));
-		setRegistryName("money_slab");
 	}
 
 	@Override

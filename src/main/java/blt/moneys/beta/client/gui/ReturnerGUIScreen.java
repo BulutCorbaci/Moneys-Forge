@@ -73,7 +73,7 @@ public class ReturnerGUIScreen extends AbstractContainerScreen<ReturnerGUIMenu> 
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		drawString(poseStack, this.font, "Returner", 5, 3, -16750852);
+		this.font.draw(poseStack, "Returner", 5, 3, -16750852);
 	}
 
 	@Override

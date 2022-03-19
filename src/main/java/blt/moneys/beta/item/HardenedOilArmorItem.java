@@ -41,7 +41,7 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MoneysModItems.OIL_HARD));
+				return Ingredient.of(new ItemStack(MoneysModItems.OIL_HARD.get()));
 			}
 
 			@Override
@@ -64,7 +64,6 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 	public static class Helmet extends HardenedOilArmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB));
-			setRegistryName("hardened_oil_armor_helmet");
 		}
 
 		@Override
@@ -76,7 +75,6 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 	public static class Chestplate extends HardenedOilArmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB));
-			setRegistryName("hardened_oil_armor_chestplate");
 		}
 
 		@Override
@@ -88,7 +86,6 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 	public static class Leggings extends HardenedOilArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB));
-			setRegistryName("hardened_oil_armor_leggings");
 		}
 
 		@Override
@@ -100,7 +97,6 @@ public abstract class HardenedOilArmorItem extends ArmorItem {
 	public static class Boots extends HardenedOilArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB));
-			setRegistryName("hardened_oil_armor_boots");
 		}
 
 		@Override

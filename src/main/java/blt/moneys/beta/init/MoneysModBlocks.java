@@ -4,14 +4,11 @@
  */
 package blt.moneys.beta.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
-
-import java.util.List;
-import java.util.ArrayList;
 
 import blt.moneys.beta.block.ReturnerBlock;
 import blt.moneys.beta.block.ReburnerBlock;
@@ -26,31 +23,21 @@ import blt.moneys.beta.block.MoneyLeavesBlock;
 import blt.moneys.beta.block.MoneyFenceGateBlock;
 import blt.moneys.beta.block.MoneyFenceBlock;
 import blt.moneys.beta.block.MoneyButtonBlock;
+import blt.moneys.beta.MoneysMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneysModBlocks {
-	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block REBURNER = register(new ReburnerBlock());
-	public static final Block OIL_ORE = register(new OilOreBlock());
-	public static final Block MONEY_WOOD = register(new MoneyWoodBlock());
-	public static final Block MONEY_LOG = register(new MoneyLogBlock());
-	public static final Block MONEY_PLANKS = register(new MoneyPlanksBlock());
-	public static final Block MONEY_LEAVES = register(new MoneyLeavesBlock());
-	public static final Block MONEY_STAIRS = register(new MoneyStairsBlock());
-	public static final Block MONEY_SLAB = register(new MoneySlabBlock());
-	public static final Block MONEY_FENCE = register(new MoneyFenceBlock());
-	public static final Block MONEY_FENCE_GATE = register(new MoneyFenceGateBlock());
-	public static final Block MONEY_PRESSURE_PLATE = register(new MoneyPressurePlateBlock());
-	public static final Block MONEY_BUTTON = register(new MoneyButtonBlock());
-	public static final Block RETURNER = register(new ReturnerBlock());
-
-	private static Block register(Block block) {
-		REGISTRY.add(block);
-		return block;
-	}
-
-	@SubscribeEvent
-	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new Block[0]));
-	}
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MoneysMod.MODID);
+	public static final RegistryObject<Block> REBURNER = REGISTRY.register("reburner", () -> new ReburnerBlock());
+	public static final RegistryObject<Block> OIL_ORE = REGISTRY.register("oil_ore", () -> new OilOreBlock());
+	public static final RegistryObject<Block> MONEY_WOOD = REGISTRY.register("money_wood", () -> new MoneyWoodBlock());
+	public static final RegistryObject<Block> MONEY_LOG = REGISTRY.register("money_log", () -> new MoneyLogBlock());
+	public static final RegistryObject<Block> MONEY_PLANKS = REGISTRY.register("money_planks", () -> new MoneyPlanksBlock());
+	public static final RegistryObject<Block> MONEY_LEAVES = REGISTRY.register("money_leaves", () -> new MoneyLeavesBlock());
+	public static final RegistryObject<Block> MONEY_STAIRS = REGISTRY.register("money_stairs", () -> new MoneyStairsBlock());
+	public static final RegistryObject<Block> MONEY_SLAB = REGISTRY.register("money_slab", () -> new MoneySlabBlock());
+	public static final RegistryObject<Block> MONEY_FENCE = REGISTRY.register("money_fence", () -> new MoneyFenceBlock());
+	public static final RegistryObject<Block> MONEY_FENCE_GATE = REGISTRY.register("money_fence_gate", () -> new MoneyFenceGateBlock());
+	public static final RegistryObject<Block> MONEY_PRESSURE_PLATE = REGISTRY.register("money_pressure_plate", () -> new MoneyPressurePlateBlock());
+	public static final RegistryObject<Block> MONEY_BUTTON = REGISTRY.register("money_button", () -> new MoneyButtonBlock());
+	public static final RegistryObject<Block> RETURNER = REGISTRY.register("returner", () -> new ReturnerBlock());
 }

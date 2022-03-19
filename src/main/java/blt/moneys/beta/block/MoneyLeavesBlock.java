@@ -20,7 +20,6 @@ import blt.moneys.beta.init.MoneysModItems;
 public class MoneyLeavesBlock extends LeavesBlock {
 	public MoneyLeavesBlock() {
 		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.4f, 0.6000000000000001f).noOcclusion());
-		setRegistryName("money_leaves");
 	}
 
 	@Override
@@ -38,6 +37,6 @@ public class MoneyLeavesBlock extends LeavesBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MoneysModItems.MINECOIN_1));
+		return Collections.singletonList(new ItemStack(MoneysModItems.MINECOIN_1.get()));
 	}
 }

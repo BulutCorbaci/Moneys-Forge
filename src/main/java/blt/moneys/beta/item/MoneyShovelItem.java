@@ -34,9 +34,8 @@ public class MoneyShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MoneysModBlocks.MONEY_PLANKS));
+				return Ingredient.of(new ItemStack(MoneysModBlocks.MONEY_PLANKS.get()));
 			}
 		}, 1, -3f, new Item.Properties().tab(MoneysModTabs.TAB_MONEYS_TAB));
-		setRegistryName("money_shovel");
 	}
 }

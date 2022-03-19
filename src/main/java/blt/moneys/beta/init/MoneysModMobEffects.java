@@ -4,29 +4,17 @@
  */
 package blt.moneys.beta.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
 
-import java.util.List;
-import java.util.ArrayList;
-
 import blt.moneys.beta.potion.QuickestFixEffectMobEffect;
+import blt.moneys.beta.MoneysMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneysModMobEffects {
-	private static final List<MobEffect> REGISTRY = new ArrayList<>();
-	public static final MobEffect QUICKEST_FIX_EFFECT = register(new QuickestFixEffectMobEffect());
-
-	private static MobEffect register(MobEffect effect) {
-		REGISTRY.add(effect);
-		return effect;
-	}
-
-	@SubscribeEvent
-	public static void registerMobEffects(RegistryEvent.Register<MobEffect> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new MobEffect[0]));
-	}
+	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, MoneysMod.MODID);
+	public static final RegistryObject<MobEffect> QUICKEST_FIX_EFFECT = REGISTRY.register("quickest_fix_effect",
+			() -> new QuickestFixEffectMobEffect());
 }

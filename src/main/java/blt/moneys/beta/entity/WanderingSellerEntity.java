@@ -2,8 +2,8 @@
 package blt.moneys.beta.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
-import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
@@ -58,11 +58,12 @@ public class WanderingSellerEntity extends PathfinderMob {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		if (SPAWN_BIOMES.contains(event.getName()))
-			event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(MoneysModEntities.WANDERING_SELLER, 1, 1, 1));
+			event.getSpawns().getSpawner(MobCategory.CREATURE)
+					.add(new MobSpawnSettings.SpawnerData(MoneysModEntities.WANDERING_SELLER.get(), 1, 1, 1));
 	}
 
-	public WanderingSellerEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
-		this(MoneysModEntities.WANDERING_SELLER, world);
+	public WanderingSellerEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(MoneysModEntities.WANDERING_SELLER.get(), world);
 	}
 
 	public WanderingSellerEntity(EntityType<WanderingSellerEntity> type, Level world) {
@@ -144,7 +145,7 @@ public class WanderingSellerEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(MoneysModEntities.WANDERING_SELLER, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(MoneysModEntities.WANDERING_SELLER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
 						random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
 	}

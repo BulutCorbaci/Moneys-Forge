@@ -16,10 +16,12 @@ package blt.moneys.beta;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
@@ -29,6 +31,14 @@ import java.util.function.Function;
 import java.util.function.BiConsumer;
 
 import blt.moneys.beta.init.MoneysModTabs;
+import blt.moneys.beta.init.MoneysModPotions;
+import blt.moneys.beta.init.MoneysModMobEffects;
+import blt.moneys.beta.init.MoneysModItems;
+import blt.moneys.beta.init.MoneysModFeatures;
+import blt.moneys.beta.init.MoneysModEntities;
+import blt.moneys.beta.init.MoneysModBlocks;
+import blt.moneys.beta.init.MoneysModBlockEntities;
+import blt.moneys.beta.init.MoneysModBiomes;
 
 @Mod("moneys")
 public class MoneysMod {
@@ -41,6 +51,16 @@ public class MoneysMod {
 
 	public MoneysMod() {
 		MoneysModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		MoneysModBlocks.REGISTRY.register(bus);
+		MoneysModItems.REGISTRY.register(bus);
+		MoneysModEntities.REGISTRY.register(bus);
+		MoneysModBlockEntities.REGISTRY.register(bus);
+		MoneysModFeatures.REGISTRY.register(bus);
+
+		MoneysModMobEffects.REGISTRY.register(bus);
+		MoneysModPotions.REGISTRY.register(bus);
+		MoneysModBiomes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

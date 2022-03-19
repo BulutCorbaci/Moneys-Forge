@@ -17,7 +17,7 @@ public class MoneysModTabs {
 		TAB_MONEYS_TAB = new CreativeModeTab("tabmoneys_tab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(MoneysModItems.MINECOIN_200);
+				return new ItemStack(MoneysModItems.MINECOIN_200.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

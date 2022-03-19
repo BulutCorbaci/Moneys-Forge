@@ -21,8 +21,7 @@ public class UpdateTotalMoneyCountProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			Entity entity = event.player;
-			execute(event, entity);
+			execute(event, event.player);
 		}
 	}
 
@@ -42,7 +41,7 @@ public class UpdateTotalMoneyCountProcedure {
 			});
 		}
 		for (int index0 = 0; index0 < (int) (36); index0++) {
-			if (MoneysModItems.MINECOIN_1 == (new Object() {
+			if (MoneysModItems.MINECOIN_1.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -67,7 +66,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_5 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_5.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -92,7 +91,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_10 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_10.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -117,7 +116,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_20 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_20.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -142,7 +141,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_50 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_50.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -167,7 +166,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_100 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_100.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -192,7 +191,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_200 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_200.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -217,7 +216,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_500 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_500.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -242,7 +241,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_1000 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_1000.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -267,7 +266,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_2000 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_2000.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
@@ -292,7 +291,7 @@ public class UpdateTotalMoneyCountProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
-			} else if (MoneysModItems.MINECOIN_5000 == (new Object() {
+			} else if (MoneysModItems.MINECOIN_5000.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
